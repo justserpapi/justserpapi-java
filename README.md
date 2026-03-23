@@ -1,4 +1,8 @@
-# JustSerpAPI Java SDK
+<p align="center">
+  <img src="https://justserpapi.com/logo/whiteBgColor.png" alt="JustSerpAPI Logo" width="200">
+</p>
+
+<h1 align="center">JustSerpAPI Java SDK</h1>
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.justserpapi/justserpapi-java)](https://central.sonatype.com/artifact/com.justserpapi/justserpapi-java)
 [![Java](https://img.shields.io/badge/java-11%2B-2f81f7)](https://www.oracle.com/java/technologies/downloads/)
