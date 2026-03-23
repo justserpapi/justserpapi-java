@@ -1,0 +1,55 @@
+name: Sync OpenAPI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Refresh OpenAPI and generated sources
+        run: python3 scripts/sync_sdk.py
+
+      - name: Test normalization scripts
+        run: python3 -m unittest discover -s scripts/tests
+
+      - name: Verify build
+        run: mvn -B verify
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/openapi-sync
+          commit-message: "chore: sync OpenAPI-generated SDK"
+          title: "chore: sync OpenAPI-generated SDK"
+          body: |
+            Automated OpenAPI sync.
+
+            - refreshed the raw upstream OpenAPI document
+            - regenerated the normalized SDK input
+            - updated checked-in generated Java sources
+          labels: |
+            automation
+            openapi
+
