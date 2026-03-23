@@ -1,21 +1,16 @@
 # JustSerpAPI Java SDK
 
-Java SDK for the JustSerpAPI HTTP interface. The SDK is generated from the upstream OpenAPI document and republished through GitHub and Maven Central.
+Official Java SDK for [JustSerpAPI](https://justserpapi.com/).
 
-## What This Repository Contains
+Use this SDK to access JustSerpAPI from Java and fetch structured Google search results without building raw HTTP requests by hand.
 
-- Checked-in raw and normalized OpenAPI specs under `openapi/`
-- Checked-in generated Java sources under `src/main/generated/`
-- A stable entry point, `JustSerpApiClient`, under `src/main/java/`
-- GitHub Actions for CI, scheduled spec sync PRs, and tag-based releases
+Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/).
 
 ## Requirements
 
 - Java 11+
-- Python 3.9+
-- Maven 3.9+
 
-## Install
+## Installation
 
 ```xml
 <dependency>
@@ -25,61 +20,81 @@ Java SDK for the JustSerpAPI HTTP interface. The SDK is generated from the upstr
 </dependency>
 ```
 
-Replace the version with the latest published release.
-
-## Usage
+## Quick Start
 
 ```java
 import com.justserpapi.JustSerpApiClient;
+import com.justserpapi.generated.invoker.ApiException;
 import com.justserpapi.model.JustSerpApiResponse;
 
 import java.time.Duration;
 
 public class Example {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws ApiException {
         JustSerpApiClient client = JustSerpApiClient.builder()
             .apiKey(System.getenv("JUSTSERPAPI_API_KEY"))
             .timeout(Duration.ofSeconds(30))
             .build();
 
-        JustSerpApiResponse response = client.google().autocomplete("coffee", null, null);
-        System.out.println(response.getCode());
-        System.out.println(response.getData());
+        JustSerpApiResponse response = client.google().search(
+            "coffee shops in shanghai",
+            0,
+            false,
+            "en",
+            null,
+            "google.com",
+            "us",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "off",
+            "0",
+            "1"
+        );
+
+        System.out.println("code = " + response.getCode());
+        System.out.println("message = " + response.getMessage());
+        System.out.println("requestId = " + response.getRequestId());
+        System.out.println("organic results = " + response.getData().get("organic_results"));
     }
 }
 ```
 
-`JustSerpApiClient` configures base URL, timeout, user agent, and API key injection. Operation methods are generated from the normalized OpenAPI document and exposed through `client.google()`.
+## Configuration
 
-## Regenerate The SDK
-
-Fetch the live OpenAPI document, normalize it, regenerate the SDK, and sync checked-in generated sources:
-
-```bash
-python3 scripts/sync_sdk.py
+```java
+JustSerpApiClient client = JustSerpApiClient.builder()
+    .apiKey("YOUR_API_KEY")
+    .baseUrl("https://api.justserpapi.com")
+    .timeout(Duration.ofSeconds(30))
+    .build();
 ```
 
-Rebuild from the checked-in normalized spec without hitting the network:
+`apiKey(...)` is required. `baseUrl(...)` and `timeout(...)` are optional.
 
-```bash
-python3 scripts/sync_sdk.py --skip-fetch
-```
+## Response Format
 
-Verify that the generated sources are already up to date:
+Every request returns a `JustSerpApiResponse` envelope:
 
-```bash
-python3 scripts/sync_sdk.py --skip-fetch --check
-```
+- `code`: application-level status code
+- `message`: response message
+- `requestId`: server request id
+- `timestamp`: epoch milliseconds
+- `data`: endpoint-specific payload
 
-Run the local build:
+## Documentation
 
-```bash
-mvn verify
-```
+- Website: [https://justserpapi.com/](https://justserpapi.com/)
+- API docs: [https://justserpapi.com/](https://justserpapi.com/)
+- GitHub releases: [https://github.com/justserpapi/justserpapi-java/releases](https://github.com/justserpapi/justserpapi-java/releases)
 
-## Release Flow
+## Support
 
-- Daily scheduled workflow fetches the upstream OpenAPI document and opens a PR when the normalized spec or generated sources change.
-- Pushing a Git tag that matches `v*` runs the publish workflow.
-- Maven Central publishing and signing setup is documented in [docs/publishing.md](/Users/tianxingzhou/project/justserpapi-java/docs/publishing.md).
-
+For account setup, API access, and product information, start at [justserpapi.com](https://justserpapi.com/).
