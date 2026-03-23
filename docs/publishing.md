@@ -23,7 +23,8 @@ The release workflow publishes this SDK to Maven Central through Sonatype Centra
 3. Update `CHANGELOG.md`.
 4. Commit the release metadata changes.
 5. Create and push a matching tag, for example `v0.1.0`.
-6. The `release.yml` workflow will run `mvn -Prelease deploy` and create the GitHub Release once Central publishing succeeds.
+6. Push a matching tag, or use the `Release` workflow's manual dispatch with an existing tag after secrets are configured.
+7. The `release.yml` workflow will run `mvn -Prelease deploy` and create the GitHub Release once Central publishing succeeds.
 
 ## Local Dry Run
 
@@ -32,4 +33,3 @@ python3 scripts/sync_sdk.py --skip-fetch --check
 python3 -m unittest discover -s scripts/tests
 mvn verify
 ```
-
