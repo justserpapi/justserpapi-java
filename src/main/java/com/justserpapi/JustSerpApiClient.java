@@ -137,7 +137,10 @@ public final class JustSerpApiClient {
 
         public JustSerpApiClient build() {
             if (apiKey == null || apiKey.isBlank()) {
-                throw new IllegalStateException("apiKey must be provided");
+                apiKey = System.getenv("JUSTSERPAPI_API_KEY");
+            }
+            if (apiKey == null || apiKey.isBlank()) {
+                throw new IllegalStateException("apiKey must be provided via apiKey() or JUSTSERPAPI_API_KEY environment variable");
             }
             if (userAgent == null || userAgent.isBlank()) {
                 throw new IllegalStateException("userAgent must be provided");

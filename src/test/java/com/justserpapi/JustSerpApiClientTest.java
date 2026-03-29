@@ -48,9 +48,10 @@ class JustSerpApiClientTest {
 
     @Test
     void builderRejectsBlankApiKey() {
-        assertThrows(IllegalStateException.class, () -> JustSerpApiClient.builder()
+        IllegalStateException ex = assertThrows(IllegalStateException.class, () -> JustSerpApiClient.builder()
             .apiKey(" ")
             .build());
+        assertEquals("apiKey must be provided via apiKey() or JUSTSERPAPI_API_KEY environment variable", ex.getMessage());
     }
 
     @Test
