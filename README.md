@@ -101,7 +101,7 @@ Every request returns a `JustSerpApiResponse` envelope:
 ## Documentation
 
 - Website: [https://justserpapi.com/](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
-- API docs: [https://justserpapi.com/](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
+- API docs: [https://docs.justserpapi.com/](https://docs.justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
 - GitHub releases: [https://github.com/justserpapi/justserpapi-java/releases](https://github.com/justserpapi/justserpapi-java/releases)
 
 ## Support
