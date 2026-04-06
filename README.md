@@ -9,7 +9,7 @@
 [![Docs](https://img.shields.io/badge/docs-justserpapi.com-32c955)](https://docs.justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
 [![License](https://img.shields.io/badge/license-Apache%202.0-f28c28)](LICENSE)
 
-Official Java SDK for [JustSerpAPI]([https://justserpapi.com/](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)).
+Official Java SDK for [JustSerpAPI]([https://justserpapi.com/](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
 
 Use this SDK to access JustSerpAPI from Java and fetch structured Google search results without building raw HTTP requests by hand.
 
