@@ -13,7 +13,7 @@ Official Java SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github&u
 
 Use this SDK to access JustSerpAPI from Java and fetch structured Google search results without building raw HTTP requests by hand.
 
-Get your API key, product docs, and pricing at [justserpapi.com]([https://justserpapi.com/](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)).
+Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
 
 ## Requirements
 
