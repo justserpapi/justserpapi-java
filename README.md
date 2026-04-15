@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="https://justserpapi.com/logo/whiteBgColor.png" alt="JustSerpAPI Logo" width="200">
+  <img src="https://justserpapi.com/logo/whiteBgColor.webp" alt="JustSerpAPI Logo" width="200">
 </p>
 
 <h1 align="center">JustSerpAPI Java SDK</h1>
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.justserpapi/justserpapi-java)](https://central.sonatype.com/artifact/com.justserpapi/justserpapi-java)
 [![Java](https://img.shields.io/badge/java-11%2B-2f81f7)](https://www.oracle.com/java/technologies/downloads/)
-[![Docs](https://img.shields.io/badge/docs-justserpapi.com-32c955)](https://justserpapi.com/)
+[![Docs](https://img.shields.io/badge/docs-justserpapi.com-32c955)](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
 [![License](https://img.shields.io/badge/license-Apache%202.0-f28c28)](LICENSE)
 
-Official Java SDK for [JustSerpAPI](https://justserpapi.com/).
+Official Java SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
 
 Use this SDK to access JustSerpAPI from Java and fetch structured Google search results without building raw HTTP requests by hand.
 
-Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/).
+Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
 
 ## Requirements
 
@@ -100,10 +100,10 @@ Every request returns a `JustSerpApiResponse` envelope:
 
 ## Documentation
 
-- Website: [https://justserpapi.com/](https://justserpapi.com/)
-- API docs: [https://justserpapi.com/](https://justserpapi.com/)
+- Website: [https://justserpapi.com/](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
+- API docs: [https://docs.justserpapi.com/](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
 - GitHub releases: [https://github.com/justserpapi/justserpapi-java/releases](https://github.com/justserpapi/justserpapi-java/releases)
 
 ## Support
 
-For account setup, API access, and product information, start at [justserpapi.com](https://justserpapi.com/).
+For account setup, API access, and product information, start at [justserpapi.com](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
