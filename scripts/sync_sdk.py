@@ -15,7 +15,8 @@ GENERATED_SOURCE_PATH = REPO_ROOT / "src" / "main" / "generated"
 
 
 def run(command):
-    subprocess.run(command, cwd=REPO_ROOT, check=True)
+    completed = subprocess.run(command, cwd=REPO_ROOT)
+    return completed.returncode
 
 
 def compare_directories(left: pathlib.Path, right: pathlib.Path) -> bool:
@@ -38,13 +39,17 @@ def main() -> int:
     args = parser.parse_args()
 
     if not args.skip_fetch:
-        run([sys.executable, "scripts/fetch_openapi.py", "--output", str(RAW_SPEC_PATH)])
+        exit_code = run([sys.executable, "scripts/fetch_openapi.py", "--output", str(RAW_SPEC_PATH)])
+        if exit_code != 0:
+            return exit_code
 
-    run([sys.executable, "scripts/normalize_openapi.py", "--input", str(RAW_SPEC_PATH), "--output", str(NORMALIZED_SPEC_PATH)])
+    exit_code = run([sys.executable, "scripts/normalize_openapi.py", "--input", str(RAW_SPEC_PATH), "--output", str(NORMALIZED_SPEC_PATH)])
+    if exit_code != 0:
+        return exit_code
 
     with tempfile.TemporaryDirectory(prefix="justserpapi-codegen-") as temp_dir_name:
         output_dir = pathlib.Path(temp_dir_name) / "generated-sdk"
-        run([
+        exit_code = run([
             "mvn",
             "-q",
             "-Pcodegen",
@@ -52,6 +57,8 @@ def main() -> int:
             f"-Dopenapi.codegen.outputDir={output_dir}",
             "generate-sources"
         ])
+        if exit_code != 0:
+            return exit_code
 
         generated_root = output_dir / "src" / "main" / "generated"
         if not generated_root.exists():
