@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
       pull-requests: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -45,6 +46,8 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.OPENAPI_SYNC_GITHUB_TOKEN || github.token }}
+          branch-token: ${{ secrets.OPENAPI_SYNC_GITHUB_TOKEN || github.token }}
           branch: automation/openapi-sync
           commit-message: "chore: sync OpenAPI-generated SDK"
           title: "chore: sync OpenAPI-generated SDK"
