@@ -7,18 +7,161 @@
   },
   "servers": [
     {
-      "url": "http://api.justserpapi.com",
+      "url": "http://127.0.0.1:8008",
       "description": "Generated server url"
     }
   ],
   "paths": {
+    "/api/v1/web/rendered-html": {
+      "get": {
+        "tags": [
+          "Web Crawling"
+        ],
+        "summary": "Crawl Webpage (Rendered HTML)",
+        "description": "Get webpage crawl data, including returns full raw Rendered HTML content, fast and cost-efficient, and optimized for static page crawling, for scraping, metadata extraction, and page structure analysis.",
+        "operationId": "renderedHtml",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "description": "The full URL of the webpage to crawl (e.g., 'https://www.example.com').",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "default response",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Example search response": {
+                    "description": "Example search response"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication failed: API Key is invalid or missing"
+          },
+          "403": {
+            "description": "Access denied: Insufficient credits or quota exceeded"
+          },
+          "500": {
+            "description": "Internal server error or upstream service exception"
+          }
+        },
+        "x-highlights": []
+      }
+    },
+    "/api/v1/web/markdown": {
+      "get": {
+        "tags": [
+          "Web Crawling"
+        ],
+        "summary": "Crawl Webpage (Markdown)",
+        "description": "Get webpage crawl data, including removing boilerplate, for readable extraction, documentation workflows, and LLM input.",
+        "operationId": "markdown",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "description": "The full URL of the webpage to crawl and convert to Markdown (e.g., 'https://www.example.com').",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "default response",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Example search response": {
+                    "description": "Example search response"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication failed: API Key is invalid or missing"
+          },
+          "403": {
+            "description": "Access denied: Insufficient credits or quota exceeded"
+          },
+          "500": {
+            "description": "Internal server error or upstream service exception"
+          }
+        },
+        "x-highlights": [
+          "Clean Markdown output",
+          "Removes boilerplate like ads and navigation",
+          "Ideal for LLM input and data processing"
+        ]
+      }
+    },
+    "/api/v1/web/html": {
+      "get": {
+        "tags": [
+          "Web Crawling"
+        ],
+        "summary": "Crawl Webpage (HTML)",
+        "description": "Get webpage crawl data, including returns full raw HTML content, fast and cost-efficient, and optimized for static page crawling, for scraping, metadata extraction, and page structure analysis.",
+        "operationId": "html",
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "description": "The full URL of the webpage to crawl (e.g., 'https://www.example.com').",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "default": {
+            "description": "default response",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "Example search response": {
+                    "description": "Example search response"
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Authentication failed: API Key is invalid or missing"
+          },
+          "403": {
+            "description": "Access denied: Insufficient credits or quota exceeded"
+          },
+          "500": {
+            "description": "Internal server error or upstream service exception"
+          }
+        },
+        "x-highlights": [
+          "Returns full raw HTML content",
+          "Fast and cost-efficient",
+          "Optimized for static page crawling"
+        ]
+      }
+    },
     "/api/v1/google/videos/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Videos Search API",
-        "description": "Scrape video search results from Google with structured data for titles, descriptions, source platforms, and publication dates. Monitor video performance or analyze search results for video SEO and content strategy.",
+        "summary": "Video Search",
+        "description": "Get Google video Search data, including titles, sources, and dates, for video SEO and content monitoring.",
         "operationId": "videosSearch",
         "parameters": [
           {
@@ -313,16 +456,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Title and snippet fields",
+          "Source platform data",
+          "Publication dates",
+          "Time filters"
+        ]
       }
     },
     "/api/v1/google/trends/trending-now": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Trends Trending Now API",
-        "description": "Retrieve the latest trending topics and daily search trends across different regions. Monitor rapid shifts in search interest, viral stories, and breaking news as they happen. Provides search volume indicators and related news articles to keep you updated with what's hot on Google in real-time.",
+        "summary": "Trends Trending Now",
+        "description": "Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.",
         "operationId": "TrendsTrendingNow",
         "parameters": [
           {
@@ -972,16 +1121,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Latest trending topics",
+          "Region and time-window filters",
+          "Volume indicators",
+          "Related news links"
+        ]
       }
     },
     "/api/v1/google/trends/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Trends Search API",
-        "description": "Scrape detailed search interest data, regional trends, and related queries from Google Trends. Programmatically analyze the relative popularity of search terms over time to compare keywords, analyze seasonal fluctuations, and drill down into specific geographic regions.",
+        "summary": "Trends Search",
+        "description": "Get Google trends Search data, including interest over time, geo breakdowns, and related queries, for demand analysis and seasonal trend monitoring.",
         "operationId": "TrendsSearch",
         "parameters": [
           {
@@ -1687,16 +1842,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Interest over time",
+          "Geo breakdowns",
+          "Related queries",
+          "Multi-term comparisons"
+        ]
       }
     },
     "/api/v1/google/trends/autocomplete": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Trends Autocomplete API",
-        "description": "Access real-time search suggestions and trending keywords with the Google Trends Autocomplete API. Enhance keyword research and discover emerging search patterns by capturing Google's predictive search data, providing immediate insight into user interest shifts.",
+        "summary": "Trends Autocomplete",
+        "description": "Get Google trends Autocomplete data, including topic IDs, for trend discovery and topic expansion.",
         "operationId": "TrendsAutocomplete",
         "parameters": [
           {
@@ -1781,16 +1942,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Suggestion titles and topic IDs",
+          "Real-time trend suggestions",
+          "Language targeting",
+          "Trends explore links"
+        ]
       }
     },
     "/api/v1/google/shorts/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Shorts Search API",
-        "description": "Access trending Google Shorts content and scrape video details, rankings, and metadata. Monitor viral trends and analyze short-form video engagement across Google's shorts ecosystem.",
+        "summary": "Shorts Search",
+        "description": "Get Google shorts Search data, including video metadata and rankings, for short-form content tracking and trend analysis.",
         "operationId": "shortsSearch",
         "parameters": [
           {
@@ -2032,16 +2199,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Shorts rankings",
+          "Video metadata",
+          "Result pagination",
+          "Localized results"
+        ]
       }
     },
     "/api/v1/google/shopping/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Shopping Search API",
-        "description": "Scrape real-time product listings, prices, and merchant info from Google Shopping. Ideal for dynamic pricing engines and market research with detailed attributes like shipping costs and seller ratings.",
+        "summary": "Shopping Search",
+        "description": "Get Google shopping Search data, including product listings, prices, and merchants, for pricing research and catalog monitoring.",
         "operationId": "shoppingSearch",
         "parameters": [
           {
@@ -2880,16 +3053,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Product prices and sellers",
+          "Shipping details",
+          "Shopping filter tokens",
+          "Country and language targeting"
+        ]
       }
     },
     "/api/v1/google/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Search API",
-        "description": "Powerful Google Search SERP API to scrape organic search results, ads, knowledge panels, and more. Monitor keyword rankings and analyze competitor strategies across different countries and languages with built-in anti-bot protection.",
+        "summary": "Search SERP",
+        "description": "Get Google search SERP data, including organic results, ads, and knowledge panels, for keyword tracking and SERP analysis across markets.",
         "operationId": "search",
         "parameters": [
           {
@@ -3894,16 +4073,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Organic and paid results",
+          "Knowledge panels and local packs",
+          "Country and language targeting",
+          "Structured SERP response"
+        ]
       }
     },
     "/api/v1/google/search/mobile": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Mobile Search API",
-        "description": "Scrape mobile-optimized Google search results to provide accurate mobile rankings, features, and layouts. Identify mobile-specific features like AMP results and touch-optimized snippets for a mobile-first SEO strategy.",
+        "summary": "Mobile Search SERP",
+        "description": "Get Google mobile Search SERP data, including mobile-specific layouts and result features, for mobile SEO analysis and ranking checks.",
         "operationId": "searchMobile",
         "parameters": [
           {
@@ -4173,16 +4358,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Mobile result layouts",
+          "Mobile-specific features",
+          "Structured SERP extraction",
+          "Localization parameters"
+        ]
       }
     },
     "/api/v1/google/search/light": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Light Search API",
-        "description": "A fast and lightweight Google Search API designed for high-speed retrieval of essential SERP data. Ideal for real-time monitoring tools and simple ranking checks where speed is critical.",
+        "summary": "Light Search SERP",
+        "description": "Get Google light Search SERP data, including essential result data, for high-volume monitoring and fast rank checks.",
         "operationId": "searchLight",
         "parameters": [
           {
@@ -4613,16 +4804,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Reduced payload response",
+          "Core SERP elements",
+          "Pagination support",
+          "Localization parameters"
+        ]
       }
     },
     "/api/v1/google/scholar/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Scholar Search API",
-        "description": "Comprehensive Google Scholar SERP API to scrape academic papers, patents, and legal documents. Filter by date, relevance, and citation count for precise research data and systematic literature reviews.",
+        "summary": "Scholar Search",
+        "description": "Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.",
         "operationId": "ScholarSearch",
         "parameters": [
           {
@@ -5142,16 +5339,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Papers, patents, and legal docs",
+          "Citation and year filters",
+          "Versions and cited-by links",
+          "Structured scholarly results"
+        ]
       }
     },
     "/api/v1/google/scholar/profiles": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Scholar Profiles API",
-        "description": "Search and extract data from Google Scholar user profiles. Get real-time access to researcher information, h-index, and publication history for academic networking and institutional research assessment.",
+        "summary": "Scholar Profiles",
+        "description": "Get Google scholar Profiles data, including profile search results, affiliation and citation counts, and pagination tokens, for researcher discovery and academic directory building.",
         "operationId": "ScholarProfiles",
         "parameters": [
           {
@@ -5480,16 +5683,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Profile search results",
+          "Affiliation and citation counts",
+          "Pagination tokens",
+          "Interest topics"
+        ]
       }
     },
     "/api/v1/google/scholar/cite/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Scholar Cite Search API",
-        "description": "Retrieve citation information for specific academic papers and articles. Provides structured bibtex and citation formats (APA, MLA, Chicago, etc.) directly from Google Scholar. Perfect for automated bibliography generation and research management.",
+        "summary": "Scholar Citations",
+        "description": "Get Google scholar Citations data, including export links, for bibliography automation and citation workflows.",
         "operationId": "ScholarCiteSearch",
         "parameters": [
           {
@@ -5582,16 +5791,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Multiple citation styles",
+          "BibTeX and RIS links",
+          "Structured citation entries",
+          "Direct Scholar lookup"
+        ]
       }
     },
     "/api/v1/google/scholar/author": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Scholar Author API",
-        "description": "Scrape Google Scholar author profiles to get comprehensive lists of publications, citations, and research interests. Structured data for academic research, talent discovery, and tracking scholarly impact.",
+        "summary": "Scholar Author",
+        "description": "Get Google scholar Author data, including publications, citation metrics, and research interests, for researcher analysis and academic profiling.",
         "operationId": "ScholarAuthor",
         "parameters": [
           {
@@ -6102,16 +6317,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Publication lists",
+          "Citation metrics",
+          "Research interests",
+          "Co-author and article views"
+        ]
       }
     },
     "/api/v1/google/patents/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Patents Search API",
-        "description": "Powerful Google Patents SERP API to search and scrape patent documents. Filter by inventor, assignee, date, and status to stay updated on new filings or monitor corporate IP portfolios.",
+        "summary": "Patent Search",
+        "description": "Get Google patent Search data, including filters, for patent discovery and portfolio monitoring.",
         "operationId": "patentSearch",
         "parameters": [
           {
@@ -9138,16 +9359,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Inventor and assignee filters",
+          "Date and status filters",
+          "Patent and scholar toggles",
+          "Structured search results"
+        ]
       }
     },
     "/api/v1/google/patents/details": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Patents Details API",
-        "description": "Get comprehensive patent information including abstracts, claims, descriptions, and legal statuses. Perform freedom-to-operate searches or competitor IP monitoring with reliable structured data.",
+        "summary": "Patent Details",
+        "description": "Get Google patent Details data, including abstracts, claims, and legal status, for patent review and IP due diligence.",
         "operationId": "patentDetails",
         "parameters": [
           {
@@ -10454,16 +10681,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Abstract and claims",
+          "Description fields",
+          "Legal status data",
+          "Patent ID lookup"
+        ]
       }
     },
     "/api/v1/google/news/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google News Search API",
-        "description": "Get real-time news headlines and stories with our Google News Search API. Scrape structured data including source info, publication dates, and related topics for media monitoring and news aggregation.",
+        "summary": "News Search",
+        "description": "Get Google news Search data, including headlines and source metadata, for media monitoring and news aggregation.",
         "operationId": "newsSearch",
         "parameters": [
           {
@@ -11683,16 +11916,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Headline and source fields",
+          "Publication dates",
+          "Topic coverage",
+          "Localized results"
+        ]
       }
     },
     "/api/v1/google/maps/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Maps Search API",
-        "description": "Powerful Google Maps SERP API to scrape business listings and local search results. Search for businesses across any industry and region with precise coordinate support. Returns structured listings including addresses, map pins, and primary contact information.",
+        "summary": "Maps Search",
+        "description": "Get Google maps Search data, including business listings, ratings and contact data, and coordinate and location targeting, for local market research and lead discovery.",
         "operationId": "mapsSearch",
         "parameters": [
           {
@@ -15468,16 +15707,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Business listings",
+          "Ratings and contact data",
+          "Coordinate and location targeting",
+          "Structured local results"
+        ]
       }
     },
     "/api/v1/google/maps/reviews": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Maps Reviews API",
-        "description": "Extract user reviews and ratings from Google Maps. Get structured data for sentiment analysis and brand reputation management. Deliver complete review texts, ratings, response statuses, and reviewer metadata at scale.",
+        "summary": "Maps Reviews",
+        "description": "Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.",
         "operationId": "mapsReviews",
         "parameters": [
           {
@@ -15931,16 +16176,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Ratings and review text",
+          "Sort and topic filters",
+          "Reviewer metadata",
+          "Pagination and result controls"
+        ]
       }
     },
     "/api/v1/google/maps/posts": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Maps Posts API",
-        "description": "Scrape business updates and posts from Google Maps. Monitor time-sensitive announcements, promotional content, and official news directly from business profiles for local discovery or competitor monitoring.",
+        "summary": "Maps Posts",
+        "description": "Get Google maps Posts data, including business post content, post dates and images, and profile-specific feeds, for local business monitoring and promotion tracking.",
         "operationId": "mapsPosts",
         "parameters": [
           {
@@ -16045,16 +16296,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Business post content",
+          "Post dates and images",
+          "Profile-specific feeds",
+          "Structured post links"
+        ]
       }
     },
     "/api/v1/google/maps/places": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Maps Places API",
-        "description": "Get comprehensive details about specific locations using the Google Maps Places API. Scrape contact info, business hours, coordinates, and more from Google Maps for millions of locations worldwide. Perfect for directory sites, delivery apps, and local service guides.",
+        "summary": "Maps Place Details",
+        "description": "Get Google maps Place Details data, including contact details and business information, for enrich business directories, look up place details, and sync local app data.",
         "operationId": "mapsPlaces",
         "parameters": [
           {
@@ -16159,16 +16416,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Contact details",
+          "Hours and coordinates",
+          "place_id or data_id lookup",
+          "Country targeting"
+        ]
       }
     },
     "/api/v1/google/maps/photos": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Maps Photos API",
-        "description": "Extract high-quality photos and metadata from Google Maps locations. Access thousands of user-contributed and official photos for business listings and points of interest to build rich geographical content or verify local business details visually.",
+        "summary": "Maps Photos",
+        "description": "Get Google maps Photos data, including related metadata, for visual location research and listing QA.",
         "operationId": "mapsPhotos",
         "parameters": [
           {
@@ -16375,16 +16638,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "User and owner photos",
+          "Category filters",
+          "Pagination tokens",
+          "Structured photo URLs"
+        ]
       }
     },
     "/api/v1/google/local/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Local Search API",
-        "description": "Scrape local business listings and map results for structured data including addresses, phone numbers, and ratings. Extract valuable B2B lead info and analyze the local competitive landscape for specific keywords.",
+        "summary": "Local Search",
+        "description": "Get Google local Search data, including business listings, ratings, and contact details, for local lead generation and competitor research.",
         "operationId": "localSearch",
         "parameters": [
           {
@@ -16522,16 +16791,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Business listings and ratings",
+          "Address and phone fields",
+          "Location and UULE targeting",
+          "Specific listing lookup"
+        ]
       }
     },
     "/api/v1/google/lens": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Lens API",
-        "description": "Extract visual search results and product info using our Google Lens API. Identify objects, products, and landmarks directly from images and discover related web links with high speed.",
+        "summary": "Lens Search",
+        "description": "Get Google lens Search data, including visual matches, product matches, and related links, for visual search analysis and product matching workflows.",
         "operationId": "lens",
         "parameters": [
           {
@@ -17169,16 +17444,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Visual matches",
+          "Product matches",
+          "Exact-match search",
+          "Image URL input"
+        ]
       }
     },
     "/api/v1/google/jobs/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Jobs Search API",
-        "description": "Scrape real-time job listings from Google Jobs for HR tech and recruitment apps. Extract structured data including job titles, descriptions, companies, and locations at scale.",
+        "summary": "Jobs Search",
+        "description": "Get Google jobs Search data, including titles, companies, and locations, for aggregating job board results, analyzing hiring trends, and monitoring recruitment activity.",
         "operationId": "jobsSearch",
         "parameters": [
           {
@@ -18191,16 +18472,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Job listing fields",
+          "Company and location data",
+          "Pagination tokens",
+          "Chips and remote filters"
+        ]
       }
     },
     "/api/v1/google/immersive/product": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Immersive Product API",
-        "description": "Access rich product data and immersive shopping results from Google. Scrape detailed product features, 3D views, and specifications to enhance e-commerce research and monitor brand presentation.",
+        "summary": "Immersive Product",
+        "description": "Get Google immersive Product data, including features, specifications, and seller information, for product research and merchandising analysis.",
         "operationId": "immersiveProduct",
         "parameters": [
           {
@@ -18948,16 +19235,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Product feature fields",
+          "Specification data",
+          "Seller listings",
+          "Country and language targeting"
+        ]
       }
     },
     "/api/v1/google/images/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Images Search API",
-        "description": "Scrape high-resolution images and metadata from Google Images. Supports advanced filters like image size, color, and usage rights for precise visual data extraction for AI models or product monitoring.",
+        "summary": "Images Search",
+        "description": "Get Google images Search data, including image URLs and metadata, for filtered image discovery for research and monitoring workflows.",
         "operationId": "imagesSearch",
         "parameters": [
           {
@@ -20710,16 +21003,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Image URLs and metadata",
+          "Size, color, and type filters",
+          "Usage rights filters",
+          "Date filters"
+        ]
       }
     },
     "/api/v1/google/hotels/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Hotels Search API",
-        "description": "Scrape hotel listings, prices, ratings, and availability for competitive analysis and travel booking insights. Monitor room rates and identify popular amenities with precise hospitality market data.",
+        "summary": "Hotels Search",
+        "description": "Get Google hotels Search data, including prices, ratings, and availability details, for travel comparison and hospitality market analysis.",
         "operationId": "hotelsSearch",
         "parameters": [
           {
@@ -24909,16 +25208,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Rates and availability",
+          "Hotel metadata",
+          "Review and rating fields",
+          "Localized results"
+        ]
       }
     },
     "/api/v1/google/finance/search": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Finance Search API",
-        "description": "Scrape real-time stock market data, financial news, and currency exchange rates with our Google Finance Search SERP API. Get structured financial information including market movements, historical trends, and detailed company profiles.",
+        "summary": "Finance Search",
+        "description": "Get Google finance Search data, including market summaries, company details, and related finance results, for finance monitoring and market research.",
         "operationId": "financeSearch",
         "parameters": [
           {
@@ -25537,16 +25842,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Company result fields",
+          "Market summary data",
+          "Finance-related results",
+          "Language targeting"
+        ]
       }
     },
     "/api/v1/google/autocomplete": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google Autocomplete API",
-        "description": "Powerful Google Autocomplete API to fetch real-time search suggestions. Ideal for keyword discovery and SEO optimization. Captures dynamic suggestions Google provides as users type, offering high-value long-tail keywords and related search intent across various niches and regions.",
+        "summary": "Autocomplete Suggestions",
+        "description": "Get Google autocomplete Suggestions data, including real-time suggestion data, country and language targeting, and structured suggestion lists, for keyword expansion and search intent research.",
         "operationId": "autocomplete",
         "parameters": [
           {
@@ -25687,16 +25998,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Real-time suggestion data",
+          "Country and language targeting",
+          "Structured suggestion lists",
+          "Query-based autocomplete"
+        ]
       }
     },
     "/api/v1/google/ai-overview": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google AI Overview API",
-        "description": "Scrape Google's AI-generated search overviews and get structured insights directly from Google's generative search experience. Ideal for SEO research and monitoring generative search trends.",
+        "summary": "AI Overview",
+        "description": "Get Google aI Overview data, including generated summaries and cited sources, for generative search visibility tracking.",
         "operationId": "aiOverview",
         "parameters": [
           {
@@ -25883,16 +26200,22 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "AI overview summaries",
+          "Cited source extraction",
+          "Structured text blocks",
+          "Country and location targeting"
+        ]
       }
     },
     "/api/v1/google/ai-mode": {
       "get": {
         "tags": [
-          "Google API"
+          "Google"
         ],
-        "summary": "Google AI Mode API",
-        "description": "Access Google's AI-powered search mode with our specialized API. Capture generated answers, follow-up questions, and source links to understand how AI is reshaping search discovery.",
+        "summary": "AI Mode",
+        "description": "Get Google aI Mode data, including generated answers, follow-up prompts, and cited links, for AI search experience monitoring.",
         "operationId": "aiMode",
         "parameters": [
           {
@@ -26197,7 +26520,13 @@
           "500": {
             "description": "Internal server error or upstream service exception"
           }
-        }
+        },
+        "x-highlights": [
+          "Generated answer blocks",
+          "Follow-up question data",
+          "Cited source links",
+          "Country and location targeting"
+        ]
       }
     }
   },
