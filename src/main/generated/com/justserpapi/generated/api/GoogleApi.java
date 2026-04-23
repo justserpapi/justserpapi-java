@@ -87,10 +87,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -174,7 +174,7 @@ public class GoogleApi {
     }
 
     /**
-     * AI Mode
+     * Mode
      * Get Google aI Mode data, including generated answers, follow-up prompts, and cited links, for AI search experience monitoring.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -188,10 +188,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -201,7 +201,7 @@ public class GoogleApi {
     }
 
     /**
-     * AI Mode
+     * Mode
      * Get Google aI Mode data, including generated answers, follow-up prompts, and cited links, for AI search experience monitoring.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -215,10 +215,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -229,7 +229,7 @@ public class GoogleApi {
     }
 
     /**
-     * AI Mode (asynchronously)
+     * Mode (asynchronously)
      * Get Google aI Mode data, including generated answers, follow-up prompts, and cited links, for AI search experience monitoring.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -244,10 +244,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -268,10 +268,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -335,7 +335,7 @@ public class GoogleApi {
     }
 
     /**
-     * AI Overview
+     * Overview
      * Get Google aI Overview data, including generated summaries and cited sources, for generative search visibility tracking.
      * @param url The unique URL generated by Google to access the AI Overview. This URL is typically extracted from the &#39;ai_overview_url&#39; field in a &lt;a href&#x3D;\&quot;/reference/google/search\&quot;&gt;Google Search API&lt;/a&gt; response. Note: This URL is transient and usually expires within 2 minutes. (required)
      * @return JustSerpApiResponse
@@ -344,10 +344,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -357,7 +357,7 @@ public class GoogleApi {
     }
 
     /**
-     * AI Overview
+     * Overview
      * Get Google aI Overview data, including generated summaries and cited sources, for generative search visibility tracking.
      * @param url The unique URL generated by Google to access the AI Overview. This URL is typically extracted from the &#39;ai_overview_url&#39; field in a &lt;a href&#x3D;\&quot;/reference/google/search\&quot;&gt;Google Search API&lt;/a&gt; response. Note: This URL is transient and usually expires within 2 minutes. (required)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
@@ -366,10 +366,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -380,7 +380,7 @@ public class GoogleApi {
     }
 
     /**
-     * AI Overview (asynchronously)
+     * Overview (asynchronously)
      * Get Google aI Overview data, including generated summaries and cited sources, for generative search visibility tracking.
      * @param url The unique URL generated by Google to access the AI Overview. This URL is typically extracted from the &#39;ai_overview_url&#39; field in a &lt;a href&#x3D;\&quot;/reference/google/search\&quot;&gt;Google Search API&lt;/a&gt; response. Note: This URL is transient and usually expires within 2 minutes. (required)
      * @param _callback The callback to be executed when the API call finishes
@@ -390,10 +390,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -416,10 +416,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -502,10 +502,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -526,10 +526,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -552,10 +552,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -578,10 +578,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -653,7 +653,7 @@ public class GoogleApi {
     }
 
     /**
-     * Finance Search
+     * Search
      * Get Google finance Search data, including market summaries, company details, and related finance results, for finance monitoring and market research.
      * @param query The stock symbol, company name, or index you want to search for on Google Finance (e.g., &#39;AAPL&#39;, &#39;Tesla&#39;, &#39;S&amp;P 500&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -664,10 +664,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -677,7 +677,7 @@ public class GoogleApi {
     }
 
     /**
-     * Finance Search
+     * Search
      * Get Google finance Search data, including market summaries, company details, and related finance results, for finance monitoring and market research.
      * @param query The stock symbol, company name, or index you want to search for on Google Finance (e.g., &#39;AAPL&#39;, &#39;Tesla&#39;, &#39;S&amp;P 500&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -688,10 +688,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -702,7 +702,7 @@ public class GoogleApi {
     }
 
     /**
-     * Finance Search (asynchronously)
+     * Search (asynchronously)
      * Get Google finance Search data, including market summaries, company details, and related finance results, for finance monitoring and market research.
      * @param query The stock symbol, company name, or index you want to search for on Google Finance (e.g., &#39;AAPL&#39;, &#39;Tesla&#39;, &#39;S&amp;P 500&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -714,10 +714,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -763,10 +763,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -940,7 +940,7 @@ public class GoogleApi {
     }
 
     /**
-     * Hotels Search
+     * Search
      * Get Google hotels Search data, including prices, ratings, and availability details, for travel comparison and hospitality market analysis.
      * @param query The destination or specific hotel name you are searching for (e.g., &#39;Paris&#39;, &#39;Hilton New York&#39;). (required)
      * @param checkInDate The hotel check-in date in &#39;YYYY-MM-DD&#39; format (e.g., &#39;2026-05-20&#39;). (required)
@@ -974,10 +974,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -987,7 +987,7 @@ public class GoogleApi {
     }
 
     /**
-     * Hotels Search
+     * Search
      * Get Google hotels Search data, including prices, ratings, and availability details, for travel comparison and hospitality market analysis.
      * @param query The destination or specific hotel name you are searching for (e.g., &#39;Paris&#39;, &#39;Hilton New York&#39;). (required)
      * @param checkInDate The hotel check-in date in &#39;YYYY-MM-DD&#39; format (e.g., &#39;2026-05-20&#39;). (required)
@@ -1021,10 +1021,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1035,7 +1035,7 @@ public class GoogleApi {
     }
 
     /**
-     * Hotels Search (asynchronously)
+     * Search (asynchronously)
      * Get Google hotels Search data, including prices, ratings, and availability details, for travel comparison and hospitality market analysis.
      * @param query The destination or specific hotel name you are searching for (e.g., &#39;Paris&#39;, &#39;Hilton New York&#39;). (required)
      * @param checkInDate The hotel check-in date in &#39;YYYY-MM-DD&#39; format (e.g., &#39;2026-05-20&#39;). (required)
@@ -1070,10 +1070,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1094,10 +1094,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1170,10 +1170,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1192,10 +1192,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1216,10 +1216,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1262,10 +1262,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1417,7 +1417,7 @@ public class GoogleApi {
     }
 
     /**
-     * Images Search
+     * Search
      * Get Google images Search data, including image URLs and metadata, for filtered image discovery for research and monitoring workflows.
      * @param query The search query for images (e.g., &#39;mountain landscape&#39;, &#39;luxury cars&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -1448,10 +1448,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1461,7 +1461,7 @@ public class GoogleApi {
     }
 
     /**
-     * Images Search
+     * Search
      * Get Google images Search data, including image URLs and metadata, for filtered image discovery for research and monitoring workflows.
      * @param query The search query for images (e.g., &#39;mountain landscape&#39;, &#39;luxury cars&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -1492,10 +1492,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1506,7 +1506,7 @@ public class GoogleApi {
     }
 
     /**
-     * Images Search (asynchronously)
+     * Search (asynchronously)
      * Get Google images Search data, including image URLs and metadata, for filtered image discovery for research and monitoring workflows.
      * @param query The search query for images (e.g., &#39;mountain landscape&#39;, &#39;luxury cars&#39;). (required)
      * @param html Set to true to return the raw HTML of the Google search results page alongside the structured data. (optional)
@@ -1538,10 +1538,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1566,10 +1566,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1649,7 +1649,7 @@ public class GoogleApi {
     }
 
     /**
-     * Immersive Product
+     * Details
      * Get Google immersive Product data, including features, specifications, and seller information, for product research and merchandising analysis.
      * @param pageToken The unique token used to retrieve detailed product information in Google&#39;s immersive view. This token is typically found in Google Shopping or Search results. (required)
      * @param stores If set to true, the API will retrieve a list of more sellers for the product. Use this together with the &#39;sori&#39; parameter. (optional)
@@ -1662,10 +1662,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1675,7 +1675,7 @@ public class GoogleApi {
     }
 
     /**
-     * Immersive Product
+     * Details
      * Get Google immersive Product data, including features, specifications, and seller information, for product research and merchandising analysis.
      * @param pageToken The unique token used to retrieve detailed product information in Google&#39;s immersive view. This token is typically found in Google Shopping or Search results. (required)
      * @param stores If set to true, the API will retrieve a list of more sellers for the product. Use this together with the &#39;sori&#39; parameter. (optional)
@@ -1688,10 +1688,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1702,7 +1702,7 @@ public class GoogleApi {
     }
 
     /**
-     * Immersive Product (asynchronously)
+     * Details (asynchronously)
      * Get Google immersive Product data, including features, specifications, and seller information, for product research and merchandising analysis.
      * @param pageToken The unique token used to retrieve detailed product information in Google&#39;s immersive view. This token is typically found in Google Shopping or Search results. (required)
      * @param stores If set to true, the API will retrieve a list of more sellers for the product. Use this together with the &#39;sori&#39; parameter. (optional)
@@ -1716,10 +1716,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1748,10 +1748,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1847,7 +1847,7 @@ public class GoogleApi {
     }
 
     /**
-     * Jobs Search
+     * Search
      * Get Google jobs Search data, including titles, companies, and locations, for aggregating job board results, analyzing hiring trends, and monitoring recruitment activity.
      * @param query The job search query (e.g., &#39;software engineer&#39;, &#39;data scientist London&#39;). (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -1864,10 +1864,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1877,7 +1877,7 @@ public class GoogleApi {
     }
 
     /**
-     * Jobs Search
+     * Search
      * Get Google jobs Search data, including titles, companies, and locations, for aggregating job board results, analyzing hiring trends, and monitoring recruitment activity.
      * @param query The job search query (e.g., &#39;software engineer&#39;, &#39;data scientist London&#39;). (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -1894,10 +1894,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1908,7 +1908,7 @@ public class GoogleApi {
     }
 
     /**
-     * Jobs Search (asynchronously)
+     * Search (asynchronously)
      * Get Google jobs Search data, including titles, companies, and locations, for aggregating job board results, analyzing hiring trends, and monitoring recruitment activity.
      * @param query The job search query (e.g., &#39;software engineer&#39;, &#39;data scientist London&#39;). (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -1926,10 +1926,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1955,10 +1955,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2042,7 +2042,7 @@ public class GoogleApi {
     }
 
     /**
-     * Lens Search
+     * Search
      * Get Google lens Search data, including visual matches, product matches, and related links, for visual search analysis and product matching workflows.
      * @param url The URL of the image you want to analyze with Google Lens. Must be a publicly accessible image URL. (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -2056,10 +2056,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2069,7 +2069,7 @@ public class GoogleApi {
     }
 
     /**
-     * Lens Search
+     * Search
      * Get Google lens Search data, including visual matches, product matches, and related links, for visual search analysis and product matching workflows.
      * @param url The URL of the image you want to analyze with Google Lens. Must be a publicly accessible image URL. (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -2083,10 +2083,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2097,7 +2097,7 @@ public class GoogleApi {
     }
 
     /**
-     * Lens Search (asynchronously)
+     * Search (asynchronously)
      * Get Google lens Search data, including visual matches, product matches, and related links, for visual search analysis and product matching workflows.
      * @param url The URL of the image you want to analyze with Google Lens. Must be a publicly accessible image URL. (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -2112,10 +2112,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2144,10 +2144,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2243,7 +2243,7 @@ public class GoogleApi {
     }
 
     /**
-     * Local Search
+     * Search
      * Get Google local Search data, including business listings, ratings, and contact details, for local lead generation and competitor research.
      * @param query The search query for local businesses (e.g., &#39;pizza&#39;, &#39;dentist near me&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -2260,10 +2260,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2273,7 +2273,7 @@ public class GoogleApi {
     }
 
     /**
-     * Local Search
+     * Search
      * Get Google local Search data, including business listings, ratings, and contact details, for local lead generation and competitor research.
      * @param query The search query for local businesses (e.g., &#39;pizza&#39;, &#39;dentist near me&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -2290,10 +2290,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2304,7 +2304,7 @@ public class GoogleApi {
     }
 
     /**
-     * Local Search (asynchronously)
+     * Search (asynchronously)
      * Get Google local Search data, including business listings, ratings, and contact details, for local lead generation and competitor research.
      * @param query The search query for local businesses (e.g., &#39;pizza&#39;, &#39;dentist near me&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -2322,10 +2322,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2349,10 +2349,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2428,7 +2428,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Photos
+     * Photos
      * Get Google maps Photos data, including related metadata, for visual location research and listing QA.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -2440,10 +2440,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2453,7 +2453,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Photos
+     * Photos
      * Get Google maps Photos data, including related metadata, for visual location research and listing QA.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -2465,10 +2465,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2479,7 +2479,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Photos (asynchronously)
+     * Photos (asynchronously)
      * Get Google maps Photos data, including related metadata, for visual location research and listing QA.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -2492,10 +2492,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2518,10 +2518,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2588,7 +2588,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Place Details
+     * Place Details
      * Get Google maps Place Details data, including contact details and business information, for enrich business directories, look up place details, and sync local app data.
      * @param placeId The unique Google Place ID. Obtainable via the Google Maps Search API. Use this or &#39;data_id&#39;. (optional)
      * @param dataId The unique Google Maps location data ID. Use this or &#39;place_id&#39;. (optional)
@@ -2599,10 +2599,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2612,7 +2612,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Place Details
+     * Place Details
      * Get Google maps Place Details data, including contact details and business information, for enrich business directories, look up place details, and sync local app data.
      * @param placeId The unique Google Place ID. Obtainable via the Google Maps Search API. Use this or &#39;data_id&#39;. (optional)
      * @param dataId The unique Google Maps location data ID. Use this or &#39;place_id&#39;. (optional)
@@ -2623,10 +2623,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2637,7 +2637,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Place Details (asynchronously)
+     * Place Details (asynchronously)
      * Get Google maps Place Details data, including contact details and business information, for enrich business directories, look up place details, and sync local app data.
      * @param placeId The unique Google Place ID. Obtainable via the Google Maps Search API. Use this or &#39;data_id&#39;. (optional)
      * @param dataId The unique Google Maps location data ID. Use this or &#39;place_id&#39;. (optional)
@@ -2649,10 +2649,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2674,10 +2674,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2745,7 +2745,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Posts
+     * Posts
      * Get Google maps Posts data, including business post content, post dates and images, and profile-specific feeds, for local business monitoring and promotion tracking.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param nextPageToken Token used to retrieve the next page of business posts. (optional)
@@ -2755,10 +2755,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2768,7 +2768,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Posts
+     * Posts
      * Get Google maps Posts data, including business post content, post dates and images, and profile-specific feeds, for local business monitoring and promotion tracking.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param nextPageToken Token used to retrieve the next page of business posts. (optional)
@@ -2778,10 +2778,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2792,7 +2792,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Posts (asynchronously)
+     * Posts (asynchronously)
      * Get Google maps Posts data, including business post content, post dates and images, and profile-specific feeds, for local business monitoring and promotion tracking.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param nextPageToken Token used to retrieve the next page of business posts. (optional)
@@ -2803,10 +2803,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2832,10 +2832,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2919,7 +2919,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Reviews
+     * Reviews
      * Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -2933,10 +2933,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2946,7 +2946,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Reviews
+     * Reviews
      * Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -2960,10 +2960,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2974,7 +2974,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Reviews (asynchronously)
+     * Reviews (asynchronously)
      * Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -2989,10 +2989,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3020,10 +3020,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3115,7 +3115,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Search
+     * Search
      * Get Google maps Search data, including business listings, ratings and contact data, and coordinate and location targeting, for local market research and lead discovery.
      * @param query The search query for Google Maps (e.g., &#39;restaurants&#39;, &#39;hospitals in New York&#39;). (required)
      * @param ll GPS coordinates for the search origin. Format: &#39;@&lt;latitude&gt;,&lt;longitude&gt;,&lt;zoom&gt;&#39;. Required for precise localization and pagination. (optional)
@@ -3131,10 +3131,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3144,7 +3144,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Search
+     * Search
      * Get Google maps Search data, including business listings, ratings and contact data, and coordinate and location targeting, for local market research and lead discovery.
      * @param query The search query for Google Maps (e.g., &#39;restaurants&#39;, &#39;hospitals in New York&#39;). (required)
      * @param ll GPS coordinates for the search origin. Format: &#39;@&lt;latitude&gt;,&lt;longitude&gt;,&lt;zoom&gt;&#39;. Required for precise localization and pagination. (optional)
@@ -3160,10 +3160,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3174,7 +3174,7 @@ public class GoogleApi {
     }
 
     /**
-     * Maps Search (asynchronously)
+     * Search (asynchronously)
      * Get Google maps Search data, including business listings, ratings and contact data, and coordinate and location targeting, for local market research and lead discovery.
      * @param query The search query for Google Maps (e.g., &#39;restaurants&#39;, &#39;hospitals in New York&#39;). (required)
      * @param ll GPS coordinates for the search origin. Format: &#39;@&lt;latitude&gt;,&lt;longitude&gt;,&lt;zoom&gt;&#39;. Required for precise localization and pagination. (optional)
@@ -3191,10 +3191,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3215,10 +3215,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3291,10 +3291,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3313,10 +3313,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3337,10 +3337,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3367,10 +3367,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3458,7 +3458,7 @@ public class GoogleApi {
     }
 
     /**
-     * News Search
+     * Search
      * Get Google news Search data, including headlines and source metadata, for media monitoring and news aggregation.
      * @param query The search query for Google News (e.g., &#39;artificial intelligence&#39;, &#39;climate change&#39;). (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -3473,10 +3473,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3486,7 +3486,7 @@ public class GoogleApi {
     }
 
     /**
-     * News Search
+     * Search
      * Get Google news Search data, including headlines and source metadata, for media monitoring and news aggregation.
      * @param query The search query for Google News (e.g., &#39;artificial intelligence&#39;, &#39;climate change&#39;). (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -3501,10 +3501,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3515,7 +3515,7 @@ public class GoogleApi {
     }
 
     /**
-     * News Search (asynchronously)
+     * Search (asynchronously)
      * Get Google news Search data, including headlines and source metadata, for media monitoring and news aggregation.
      * @param query The search query for Google News (e.g., &#39;artificial intelligence&#39;, &#39;climate change&#39;). (required)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
@@ -3531,10 +3531,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3557,10 +3557,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3632,7 +3632,7 @@ public class GoogleApi {
     }
 
     /**
-     * Patent Details
+     * Details
      * Get Google patent Details data, including abstracts, claims, and legal status, for patent review and IP due diligence.
      * @param patentId The unique Google Patent ID (e.g., &#39;US1234567B1&#39;). (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -3643,10 +3643,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3656,7 +3656,7 @@ public class GoogleApi {
     }
 
     /**
-     * Patent Details
+     * Details
      * Get Google patent Details data, including abstracts, claims, and legal status, for patent review and IP due diligence.
      * @param patentId The unique Google Patent ID (e.g., &#39;US1234567B1&#39;). (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -3667,10 +3667,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3681,7 +3681,7 @@ public class GoogleApi {
     }
 
     /**
-     * Patent Details (asynchronously)
+     * Details (asynchronously)
      * Get Google patent Details data, including abstracts, claims, and legal status, for patent review and IP due diligence.
      * @param patentId The unique Google Patent ID (e.g., &#39;US1234567B1&#39;). (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -3693,10 +3693,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3733,10 +3733,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3864,7 +3864,7 @@ public class GoogleApi {
     }
 
     /**
-     * Patent Search
+     * Search
      * Get Google patent Search data, including filters, for patent discovery and portfolio monitoring.
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -3889,10 +3889,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3902,7 +3902,7 @@ public class GoogleApi {
     }
 
     /**
-     * Patent Search
+     * Search
      * Get Google patent Search data, including filters, for patent discovery and portfolio monitoring.
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -3927,10 +3927,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3941,7 +3941,7 @@ public class GoogleApi {
     }
 
     /**
-     * Patent Search (asynchronously)
+     * Search (asynchronously)
      * Get Google patent Search data, including filters, for patent discovery and portfolio monitoring.
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -3967,10 +3967,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3991,10 +3991,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4067,10 +4067,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4089,10 +4089,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4113,10 +4113,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4142,10 +4142,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4229,7 +4229,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Author
+     * Author
      * Get Google scholar Author data, including publications, citation metrics, and research interests, for researcher analysis and academic profiling.
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
@@ -4243,10 +4243,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4256,7 +4256,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Author
+     * Author
      * Get Google scholar Author data, including publications, citation metrics, and research interests, for researcher analysis and academic profiling.
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
@@ -4270,10 +4270,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4284,7 +4284,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Author (asynchronously)
+     * Author (asynchronously)
      * Get Google scholar Author data, including publications, citation metrics, and research interests, for researcher analysis and academic profiling.
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
@@ -4299,10 +4299,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4324,10 +4324,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4395,7 +4395,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Citations
+     * Citations
      * Get Google scholar Citations data, including export links, for bibliography automation and citation workflows.
      * @param query The unique ID of a Google Scholar search result to retrieve citation formats for. Found in the &#39;id&#39; field of previous Scholar Search responses. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -4405,10 +4405,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4418,7 +4418,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Citations
+     * Citations
      * Get Google scholar Citations data, including export links, for bibliography automation and citation workflows.
      * @param query The unique ID of a Google Scholar search result to retrieve citation formats for. Found in the &#39;id&#39; field of previous Scholar Search responses. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -4428,10 +4428,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4442,7 +4442,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Citations (asynchronously)
+     * Citations (asynchronously)
      * Get Google scholar Citations data, including export links, for bibliography automation and citation workflows.
      * @param query The unique ID of a Google Scholar search result to retrieve citation formats for. Found in the &#39;id&#39; field of previous Scholar Search responses. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -4453,178 +4453,16 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
     public okhttp3.Call scholarCiteSearchAsync(String query, String language, final ApiCallback<JustSerpApiResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = scholarCiteSearchValidateBeforeCall(query, language, _callback);
-        Type localVarReturnType = new TypeToken<JustSerpApiResponse>(){}.getType();
-        localVarApiClient.executeAsync(localVarCall, localVarReturnType, _callback);
-        return localVarCall;
-    }
-    /**
-     * Build call for scholarProfiles
-     * @param mauthors The search query for author profiles (e.g., &#39;John Smith&#39;, &#39;Harvard University&#39;). (required)
-     * @param afterAuthor Token used to retrieve the next page of author profiles. (optional)
-     * @param beforeAuthor Token used to retrieve the previous page of author profiles. (optional)
-     * @param _callback Callback for upload/download progress
-     * @return Call to execute
-     * @throws ApiException If fail to serialize the request body object
-     * @http.response.details
-     <table border="1">
-       <caption>Response Details</caption>
-        <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
-        <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
-        <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
-        <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
-        <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
-     </table>
-     */
-    public okhttp3.Call scholarProfilesCall(String mauthors, String afterAuthor, String beforeAuthor, final ApiCallback _callback) throws ApiException {
-        String basePath = null;
-        // Operation Servers
-        String[] localBasePaths = new String[] {  };
-
-        // Determine Base Path to Use
-        if (localCustomBaseUrl != null){
-            basePath = localCustomBaseUrl;
-        } else if ( localBasePaths.length > 0 ) {
-            basePath = localBasePaths[localHostIndex];
-        } else {
-            basePath = null;
-        }
-
-        Object localVarPostBody = null;
-
-        // create path and map variables
-        String localVarPath = "/api/v1/google/scholar/profiles";
-
-        List<Pair> localVarQueryParams = new ArrayList<Pair>();
-        List<Pair> localVarCollectionQueryParams = new ArrayList<Pair>();
-        Map<String, String> localVarHeaderParams = new HashMap<String, String>();
-        Map<String, String> localVarCookieParams = new HashMap<String, String>();
-        Map<String, Object> localVarFormParams = new HashMap<String, Object>();
-
-        if (mauthors != null) {
-            localVarQueryParams.addAll(localVarApiClient.parameterToPair("mauthors", mauthors));
-        }
-
-        if (afterAuthor != null) {
-            localVarQueryParams.addAll(localVarApiClient.parameterToPair("after_author", afterAuthor));
-        }
-
-        if (beforeAuthor != null) {
-            localVarQueryParams.addAll(localVarApiClient.parameterToPair("before_author", beforeAuthor));
-        }
-
-        final String[] localVarAccepts = {
-            "application/json"
-        };
-        final String localVarAccept = localVarApiClient.selectHeaderAccept(localVarAccepts);
-        if (localVarAccept != null) {
-            localVarHeaderParams.put("Accept", localVarAccept);
-        }
-
-        final String[] localVarContentTypes = {
-        };
-        final String localVarContentType = localVarApiClient.selectHeaderContentType(localVarContentTypes);
-        if (localVarContentType != null) {
-            localVarHeaderParams.put("Content-Type", localVarContentType);
-        }
-
-        String[] localVarAuthNames = new String[] { "JustSerpApiKeyQuery", "JustSerpApiKeyHeader" };
-        return localVarApiClient.buildCall(basePath, localVarPath, "GET", localVarQueryParams, localVarCollectionQueryParams, localVarPostBody, localVarHeaderParams, localVarCookieParams, localVarFormParams, localVarAuthNames, _callback);
-    }
-
-    @SuppressWarnings("rawtypes")
-    private okhttp3.Call scholarProfilesValidateBeforeCall(String mauthors, String afterAuthor, String beforeAuthor, final ApiCallback _callback) throws ApiException {
-        // verify the required parameter 'mauthors' is set
-        if (mauthors == null) {
-            throw new ApiException("Missing the required parameter 'mauthors' when calling scholarProfiles(Async)");
-        }
-
-        return scholarProfilesCall(mauthors, afterAuthor, beforeAuthor, _callback);
-
-    }
-
-    /**
-     * Scholar Profiles
-     * Get Google scholar Profiles data, including profile search results, affiliation and citation counts, and pagination tokens, for researcher discovery and academic directory building.
-     * @param mauthors The search query for author profiles (e.g., &#39;John Smith&#39;, &#39;Harvard University&#39;). (required)
-     * @param afterAuthor Token used to retrieve the next page of author profiles. (optional)
-     * @param beforeAuthor Token used to retrieve the previous page of author profiles. (optional)
-     * @return JustSerpApiResponse
-     * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
-     * @http.response.details
-     <table border="1">
-       <caption>Response Details</caption>
-        <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
-        <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
-        <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
-        <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
-        <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
-     </table>
-     */
-    public JustSerpApiResponse scholarProfiles(String mauthors, String afterAuthor, String beforeAuthor) throws ApiException {
-        ApiResponse<JustSerpApiResponse> localVarResp = scholarProfilesWithHttpInfo(mauthors, afterAuthor, beforeAuthor);
-        return localVarResp.getData();
-    }
-
-    /**
-     * Scholar Profiles
-     * Get Google scholar Profiles data, including profile search results, affiliation and citation counts, and pagination tokens, for researcher discovery and academic directory building.
-     * @param mauthors The search query for author profiles (e.g., &#39;John Smith&#39;, &#39;Harvard University&#39;). (required)
-     * @param afterAuthor Token used to retrieve the next page of author profiles. (optional)
-     * @param beforeAuthor Token used to retrieve the previous page of author profiles. (optional)
-     * @return ApiResponse&lt;JustSerpApiResponse&gt;
-     * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
-     * @http.response.details
-     <table border="1">
-       <caption>Response Details</caption>
-        <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
-        <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
-        <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
-        <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
-        <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
-     </table>
-     */
-    public ApiResponse<JustSerpApiResponse> scholarProfilesWithHttpInfo(String mauthors, String afterAuthor, String beforeAuthor) throws ApiException {
-        okhttp3.Call localVarCall = scholarProfilesValidateBeforeCall(mauthors, afterAuthor, beforeAuthor, null);
-        Type localVarReturnType = new TypeToken<JustSerpApiResponse>(){}.getType();
-        return localVarApiClient.execute(localVarCall, localVarReturnType);
-    }
-
-    /**
-     * Scholar Profiles (asynchronously)
-     * Get Google scholar Profiles data, including profile search results, affiliation and citation counts, and pagination tokens, for researcher discovery and academic directory building.
-     * @param mauthors The search query for author profiles (e.g., &#39;John Smith&#39;, &#39;Harvard University&#39;). (required)
-     * @param afterAuthor Token used to retrieve the next page of author profiles. (optional)
-     * @param beforeAuthor Token used to retrieve the previous page of author profiles. (optional)
-     * @param _callback The callback to be executed when the API call finishes
-     * @return The request call
-     * @throws ApiException If fail to process the API call, e.g. serializing the request body object
-     * @http.response.details
-     <table border="1">
-       <caption>Response Details</caption>
-        <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
-        <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
-        <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
-        <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
-        <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
-     </table>
-     */
-    public okhttp3.Call scholarProfilesAsync(String mauthors, String afterAuthor, String beforeAuthor, final ApiCallback<JustSerpApiResponse> _callback) throws ApiException {
-
-        okhttp3.Call localVarCall = scholarProfilesValidateBeforeCall(mauthors, afterAuthor, beforeAuthor, _callback);
         Type localVarReturnType = new TypeToken<JustSerpApiResponse>(){}.getType();
         localVarApiClient.executeAsync(localVarCall, localVarReturnType, _callback);
         return localVarCall;
@@ -4654,10 +4492,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4781,7 +4619,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Search
+     * Search
      * Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.
      * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
@@ -4805,10 +4643,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4818,7 +4656,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Search
+     * Search
      * Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.
      * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
@@ -4842,10 +4680,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4856,7 +4694,7 @@ public class GoogleApi {
     }
 
     /**
-     * Scholar Search (asynchronously)
+     * Search (asynchronously)
      * Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.
      * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
@@ -4881,10 +4719,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4924,10 +4762,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5067,7 +4905,7 @@ public class GoogleApi {
     }
 
     /**
-     * Search SERP
+     * Search
      * Get Google search SERP data, including organic results, ads, and knowledge panels, for keyword tracking and SERP analysis across markets.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5095,10 +4933,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5108,7 +4946,7 @@ public class GoogleApi {
     }
 
     /**
-     * Search SERP
+     * Search
      * Get Google search SERP data, including organic results, ads, and knowledge panels, for keyword tracking and SERP analysis across markets.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5136,10 +4974,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5150,7 +4988,7 @@ public class GoogleApi {
     }
 
     /**
-     * Search SERP (asynchronously)
+     * Search (asynchronously)
      * Get Google search SERP data, including organic results, ads, and knowledge panels, for keyword tracking and SERP analysis across markets.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5179,10 +5017,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5222,10 +5060,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5365,7 +5203,7 @@ public class GoogleApi {
     }
 
     /**
-     * Light Search SERP
+     * Light Search
      * Get Google light Search SERP data, including essential result data, for high-volume monitoring and fast rank checks.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5393,10 +5231,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5406,7 +5244,7 @@ public class GoogleApi {
     }
 
     /**
-     * Light Search SERP
+     * Light Search
      * Get Google light Search SERP data, including essential result data, for high-volume monitoring and fast rank checks.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5434,10 +5272,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5448,7 +5286,7 @@ public class GoogleApi {
     }
 
     /**
-     * Light Search SERP (asynchronously)
+     * Light Search (asynchronously)
      * Get Google light Search SERP data, including essential result data, for high-volume monitoring and fast rank checks.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5477,10 +5315,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5520,10 +5358,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5663,7 +5501,7 @@ public class GoogleApi {
     }
 
     /**
-     * Mobile Search SERP
+     * Mobile Search
      * Get Google mobile Search SERP data, including mobile-specific layouts and result features, for mobile SEO analysis and ranking checks.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5691,10 +5529,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5704,7 +5542,7 @@ public class GoogleApi {
     }
 
     /**
-     * Mobile Search SERP
+     * Mobile Search
      * Get Google mobile Search SERP data, including mobile-specific layouts and result features, for mobile SEO analysis and ranking checks.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5732,10 +5570,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5746,7 +5584,7 @@ public class GoogleApi {
     }
 
     /**
-     * Mobile Search SERP (asynchronously)
+     * Mobile Search (asynchronously)
      * Get Google mobile Search SERP data, including mobile-specific layouts and result features, for mobile SEO analysis and ranking checks.
      * @param query The search query for Google Search (e.g., &#39;coffee shops&#39;, &#39;how to bake a cake&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5775,10 +5613,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5810,10 +5648,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5921,7 +5759,7 @@ public class GoogleApi {
     }
 
     /**
-     * Shopping Search
+     * Search
      * Get Google shopping Search data, including product listings, prices, and merchants, for pricing research and catalog monitoring.
      * @param query The shopping search query (e.g., &#39;iPhone 15&#39;, &#39;running shoes&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5941,10 +5779,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5954,7 +5792,7 @@ public class GoogleApi {
     }
 
     /**
-     * Shopping Search
+     * Search
      * Get Google shopping Search data, including product listings, prices, and merchants, for pricing research and catalog monitoring.
      * @param query The shopping search query (e.g., &#39;iPhone 15&#39;, &#39;running shoes&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -5974,10 +5812,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5988,7 +5826,7 @@ public class GoogleApi {
     }
 
     /**
-     * Shopping Search (asynchronously)
+     * Search (asynchronously)
      * Get Google shopping Search data, including product listings, prices, and merchants, for pricing research and catalog monitoring.
      * @param query The shopping search query (e.g., &#39;iPhone 15&#39;, &#39;running shoes&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -6009,10 +5847,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6043,10 +5881,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6150,7 +5988,7 @@ public class GoogleApi {
     }
 
     /**
-     * Shorts Search
+     * Search
      * Get Google shorts Search data, including video metadata and rankings, for short-form content tracking and trend analysis.
      * @param query The search query for Google Shorts (e.g., &#39;cooking tips&#39;, &#39;travel hacks&#39;). (required)
      * @param start The result offset to skip a specific number of entries (e.g., set to 12 to skip the first 12 results). (optional)
@@ -6169,10 +6007,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6182,7 +6020,7 @@ public class GoogleApi {
     }
 
     /**
-     * Shorts Search
+     * Search
      * Get Google shorts Search data, including video metadata and rankings, for short-form content tracking and trend analysis.
      * @param query The search query for Google Shorts (e.g., &#39;cooking tips&#39;, &#39;travel hacks&#39;). (required)
      * @param start The result offset to skip a specific number of entries (e.g., set to 12 to skip the first 12 results). (optional)
@@ -6201,10 +6039,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6215,7 +6053,7 @@ public class GoogleApi {
     }
 
     /**
-     * Shorts Search (asynchronously)
+     * Search (asynchronously)
      * Get Google shorts Search data, including video metadata and rankings, for short-form content tracking and trend analysis.
      * @param query The search query for Google Shorts (e.g., &#39;cooking tips&#39;, &#39;travel hacks&#39;). (required)
      * @param start The result offset to skip a specific number of entries (e.g., set to 12 to skip the first 12 results). (optional)
@@ -6235,10 +6073,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6260,10 +6098,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6331,7 +6169,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Autocomplete
+     * Autocomplete
      * Get Google trends Autocomplete data, including topic IDs, for trend discovery and topic expansion.
      * @param query The search query to get trending autocomplete suggestions for (e.g., &#39;artificial&#39;). (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -6341,10 +6179,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6354,7 +6192,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Autocomplete
+     * Autocomplete
      * Get Google trends Autocomplete data, including topic IDs, for trend discovery and topic expansion.
      * @param query The search query to get trending autocomplete suggestions for (e.g., &#39;artificial&#39;). (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -6364,10 +6202,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6378,7 +6216,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Autocomplete (asynchronously)
+     * Autocomplete (asynchronously)
      * Get Google trends Autocomplete data, including topic IDs, for trend discovery and topic expansion.
      * @param query The search query to get trending autocomplete suggestions for (e.g., &#39;artificial&#39;). (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -6389,10 +6227,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6421,10 +6259,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6520,7 +6358,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Search
+     * Search
      * Get Google trends Search data, including interest over time, geo breakdowns, and related queries, for demand analysis and seasonal trend monitoring.
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -6537,10 +6375,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6550,7 +6388,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Search
+     * Search
      * Get Google trends Search data, including interest over time, geo breakdowns, and related queries, for demand analysis and seasonal trend monitoring.
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -6567,10 +6405,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6581,7 +6419,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Search (asynchronously)
+     * Search (asynchronously)
      * Get Google trends Search data, including interest over time, geo breakdowns, and related queries, for demand analysis and seasonal trend monitoring.
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
@@ -6599,10 +6437,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6625,10 +6463,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6700,7 +6538,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Trending Now
+     * Trending Now
      * Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
      * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
@@ -6711,10 +6549,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6724,7 +6562,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Trending Now
+     * Trending Now
      * Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
      * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
@@ -6735,10 +6573,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6749,7 +6587,7 @@ public class GoogleApi {
     }
 
     /**
-     * Trends Trending Now (asynchronously)
+     * Trending Now (asynchronously)
      * Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
      * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
@@ -6761,10 +6599,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6796,10 +6634,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6907,7 +6745,7 @@ public class GoogleApi {
     }
 
     /**
-     * Video Search
+     * Search
      * Get Google video Search data, including titles, sources, and dates, for video SEO and content monitoring.
      * @param query The search query for Google Videos (e.g., &#39;coding tutorial&#39;, &#39;movie trailers&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -6927,10 +6765,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6940,7 +6778,7 @@ public class GoogleApi {
     }
 
     /**
-     * Video Search
+     * Search
      * Get Google video Search data, including titles, sources, and dates, for video SEO and content monitoring.
      * @param query The search query for Google Videos (e.g., &#39;coding tutorial&#39;, &#39;movie trailers&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -6960,10 +6798,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6974,7 +6812,7 @@ public class GoogleApi {
     }
 
     /**
-     * Video Search (asynchronously)
+     * Search (asynchronously)
      * Get Google video Search data, including titles, sources, and dates, for video SEO and content monitoring.
      * @param query The search query for Google Videos (e.g., &#39;coding tutorial&#39;, &#39;movie trailers&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
@@ -6995,10 +6833,10 @@ public class GoogleApi {
      <table border="1">
        <caption>Response Details</caption>
         <tr><td> Status Code </td><td> Description </td><td> Response Headers </td></tr>
+        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
