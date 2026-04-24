@@ -93,7 +93,9 @@ public class JSON {
         gsonBuilder.registerTypeAdapter(OffsetDateTime.class, offsetDateTimeTypeAdapter);
         gsonBuilder.registerTypeAdapter(LocalDate.class, localDateTypeAdapter);
         gsonBuilder.registerTypeAdapter(byte[].class, byteArrayAdapter);
+        gsonBuilder.registerTypeAdapterFactory(new com.justserpapi.model.JsonNode.CustomTypeAdapterFactory());
         gsonBuilder.registerTypeAdapterFactory(new com.justserpapi.model.JustSerpApiResponse.CustomTypeAdapterFactory());
+        gsonBuilder.registerTypeAdapterFactory(new com.justserpapi.model.ResultJsonNode.CustomTypeAdapterFactory());
         gson = gsonBuilder.create();
     }
 
