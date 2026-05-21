@@ -3808,21 +3808,6 @@
           "float": {
             "type": "boolean"
           },
-          "string": {
-            "type": "boolean"
-          },
-          "integralNumber": {
-            "type": "boolean"
-          },
-          "floatingPointNumber": {
-            "type": "boolean"
-          },
-          "valueNode": {
-            "type": "boolean"
-          },
-          "container": {
-            "type": "boolean"
-          },
           "missingNode": {
             "type": "boolean"
           },
@@ -3839,6 +3824,18 @@
               "POJO",
               "STRING"
             ]
+          },
+          "string": {
+            "type": "boolean"
+          },
+          "integralNumber": {
+            "type": "boolean"
+          },
+          "valueNode": {
+            "type": "boolean"
+          },
+          "container": {
+            "type": "boolean"
           },
           "pojo": {
             "type": "boolean"
@@ -3869,6 +3866,9 @@
             "type": "boolean"
           },
           "binary": {
+            "type": "boolean"
+          },
+          "floatingPointNumber": {
             "type": "boolean"
           },
           "number": {

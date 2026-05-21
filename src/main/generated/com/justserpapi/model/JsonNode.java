@@ -75,31 +75,6 @@ public class JsonNode {
   @javax.annotation.Nullable
   private Boolean _float;
 
-  public static final String SERIALIZED_NAME_STRING = "string";
-  @SerializedName(SERIALIZED_NAME_STRING)
-  @javax.annotation.Nullable
-  private Boolean string;
-
-  public static final String SERIALIZED_NAME_INTEGRAL_NUMBER = "integralNumber";
-  @SerializedName(SERIALIZED_NAME_INTEGRAL_NUMBER)
-  @javax.annotation.Nullable
-  private Boolean integralNumber;
-
-  public static final String SERIALIZED_NAME_FLOATING_POINT_NUMBER = "floatingPointNumber";
-  @SerializedName(SERIALIZED_NAME_FLOATING_POINT_NUMBER)
-  @javax.annotation.Nullable
-  private Boolean floatingPointNumber;
-
-  public static final String SERIALIZED_NAME_VALUE_NODE = "valueNode";
-  @SerializedName(SERIALIZED_NAME_VALUE_NODE)
-  @javax.annotation.Nullable
-  private Boolean valueNode;
-
-  public static final String SERIALIZED_NAME_CONTAINER = "container";
-  @SerializedName(SERIALIZED_NAME_CONTAINER)
-  @javax.annotation.Nullable
-  private Boolean container;
-
   public static final String SERIALIZED_NAME_MISSING_NODE = "missingNode";
   @SerializedName(SERIALIZED_NAME_MISSING_NODE)
   @javax.annotation.Nullable
@@ -176,6 +151,26 @@ public class JsonNode {
   @javax.annotation.Nullable
   private NodeTypeEnum nodeType;
 
+  public static final String SERIALIZED_NAME_STRING = "string";
+  @SerializedName(SERIALIZED_NAME_STRING)
+  @javax.annotation.Nullable
+  private Boolean string;
+
+  public static final String SERIALIZED_NAME_INTEGRAL_NUMBER = "integralNumber";
+  @SerializedName(SERIALIZED_NAME_INTEGRAL_NUMBER)
+  @javax.annotation.Nullable
+  private Boolean integralNumber;
+
+  public static final String SERIALIZED_NAME_VALUE_NODE = "valueNode";
+  @SerializedName(SERIALIZED_NAME_VALUE_NODE)
+  @javax.annotation.Nullable
+  private Boolean valueNode;
+
+  public static final String SERIALIZED_NAME_CONTAINER = "container";
+  @SerializedName(SERIALIZED_NAME_CONTAINER)
+  @javax.annotation.Nullable
+  private Boolean container;
+
   public static final String SERIALIZED_NAME_POJO = "pojo";
   @SerializedName(SERIALIZED_NAME_POJO)
   @javax.annotation.Nullable
@@ -226,6 +221,11 @@ public class JsonNode {
   @SerializedName(SERIALIZED_NAME_BINARY)
   @javax.annotation.Nullable
   private Boolean binary;
+
+  public static final String SERIALIZED_NAME_FLOATING_POINT_NUMBER = "floatingPointNumber";
+  @SerializedName(SERIALIZED_NAME_FLOATING_POINT_NUMBER)
+  @javax.annotation.Nullable
+  private Boolean floatingPointNumber;
 
   public static final String SERIALIZED_NAME_NUMBER = "number";
   @SerializedName(SERIALIZED_NAME_NUMBER)
@@ -335,6 +335,44 @@ public class JsonNode {
   }
 
 
+  public JsonNode missingNode(@javax.annotation.Nullable Boolean missingNode) {
+    this.missingNode = missingNode;
+    return this;
+  }
+
+  /**
+   * Get missingNode
+   * @return missingNode
+   */
+  @javax.annotation.Nullable
+  public Boolean getMissingNode() {
+    return missingNode;
+  }
+
+  public void setMissingNode(@javax.annotation.Nullable Boolean missingNode) {
+    this.missingNode = missingNode;
+  }
+
+
+  public JsonNode nodeType(@javax.annotation.Nullable NodeTypeEnum nodeType) {
+    this.nodeType = nodeType;
+    return this;
+  }
+
+  /**
+   * Get nodeType
+   * @return nodeType
+   */
+  @javax.annotation.Nullable
+  public NodeTypeEnum getNodeType() {
+    return nodeType;
+  }
+
+  public void setNodeType(@javax.annotation.Nullable NodeTypeEnum nodeType) {
+    this.nodeType = nodeType;
+  }
+
+
   public JsonNode string(@javax.annotation.Nullable Boolean string) {
     this.string = string;
     return this;
@@ -373,25 +411,6 @@ public class JsonNode {
   }
 
 
-  public JsonNode floatingPointNumber(@javax.annotation.Nullable Boolean floatingPointNumber) {
-    this.floatingPointNumber = floatingPointNumber;
-    return this;
-  }
-
-  /**
-   * Get floatingPointNumber
-   * @return floatingPointNumber
-   */
-  @javax.annotation.Nullable
-  public Boolean getFloatingPointNumber() {
-    return floatingPointNumber;
-  }
-
-  public void setFloatingPointNumber(@javax.annotation.Nullable Boolean floatingPointNumber) {
-    this.floatingPointNumber = floatingPointNumber;
-  }
-
-
   public JsonNode valueNode(@javax.annotation.Nullable Boolean valueNode) {
     this.valueNode = valueNode;
     return this;
@@ -427,44 +446,6 @@ public class JsonNode {
 
   public void setContainer(@javax.annotation.Nullable Boolean container) {
     this.container = container;
-  }
-
-
-  public JsonNode missingNode(@javax.annotation.Nullable Boolean missingNode) {
-    this.missingNode = missingNode;
-    return this;
-  }
-
-  /**
-   * Get missingNode
-   * @return missingNode
-   */
-  @javax.annotation.Nullable
-  public Boolean getMissingNode() {
-    return missingNode;
-  }
-
-  public void setMissingNode(@javax.annotation.Nullable Boolean missingNode) {
-    this.missingNode = missingNode;
-  }
-
-
-  public JsonNode nodeType(@javax.annotation.Nullable NodeTypeEnum nodeType) {
-    this.nodeType = nodeType;
-    return this;
-  }
-
-  /**
-   * Get nodeType
-   * @return nodeType
-   */
-  @javax.annotation.Nullable
-  public NodeTypeEnum getNodeType() {
-    return nodeType;
-  }
-
-  public void setNodeType(@javax.annotation.Nullable NodeTypeEnum nodeType) {
-    this.nodeType = nodeType;
   }
 
 
@@ -662,6 +643,25 @@ public class JsonNode {
   }
 
 
+  public JsonNode floatingPointNumber(@javax.annotation.Nullable Boolean floatingPointNumber) {
+    this.floatingPointNumber = floatingPointNumber;
+    return this;
+  }
+
+  /**
+   * Get floatingPointNumber
+   * @return floatingPointNumber
+   */
+  @javax.annotation.Nullable
+  public Boolean getFloatingPointNumber() {
+    return floatingPointNumber;
+  }
+
+  public void setFloatingPointNumber(@javax.annotation.Nullable Boolean floatingPointNumber) {
+    this.floatingPointNumber = floatingPointNumber;
+  }
+
+
   public JsonNode number(@javax.annotation.Nullable Boolean number) {
     this.number = number;
     return this;
@@ -715,13 +715,12 @@ public class JsonNode {
         Objects.equals(this._null, jsonNode._null) &&
         Objects.equals(this._object, jsonNode._object) &&
         Objects.equals(this._float, jsonNode._float) &&
-        Objects.equals(this.string, jsonNode.string) &&
-        Objects.equals(this.integralNumber, jsonNode.integralNumber) &&
-        Objects.equals(this.floatingPointNumber, jsonNode.floatingPointNumber) &&
-        Objects.equals(this.valueNode, jsonNode.valueNode) &&
-        Objects.equals(this.container, jsonNode.container) &&
         Objects.equals(this.missingNode, jsonNode.missingNode) &&
         Objects.equals(this.nodeType, jsonNode.nodeType) &&
+        Objects.equals(this.string, jsonNode.string) &&
+        Objects.equals(this.integralNumber, jsonNode.integralNumber) &&
+        Objects.equals(this.valueNode, jsonNode.valueNode) &&
+        Objects.equals(this.container, jsonNode.container) &&
         Objects.equals(this.pojo, jsonNode.pojo) &&
         Objects.equals(this._short, jsonNode._short) &&
         Objects.equals(this._int, jsonNode._int) &&
@@ -732,13 +731,14 @@ public class JsonNode {
         Objects.equals(this.textual, jsonNode.textual) &&
         Objects.equals(this._boolean, jsonNode._boolean) &&
         Objects.equals(this.binary, jsonNode.binary) &&
+        Objects.equals(this.floatingPointNumber, jsonNode.floatingPointNumber) &&
         Objects.equals(this.number, jsonNode.number) &&
         Objects.equals(this.embeddedValue, jsonNode.embeddedValue);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(empty, array, _null, _object, _float, string, integralNumber, floatingPointNumber, valueNode, container, missingNode, nodeType, pojo, _short, _int, _long, _double, bigDecimal, bigInteger, textual, _boolean, binary, number, embeddedValue);
+    return Objects.hash(empty, array, _null, _object, _float, missingNode, nodeType, string, integralNumber, valueNode, container, pojo, _short, _int, _long, _double, bigDecimal, bigInteger, textual, _boolean, binary, floatingPointNumber, number, embeddedValue);
   }
 
   @Override
@@ -750,13 +750,12 @@ public class JsonNode {
     sb.append("    _null: ").append(toIndentedString(_null)).append("\n");
     sb.append("    _object: ").append(toIndentedString(_object)).append("\n");
     sb.append("    _float: ").append(toIndentedString(_float)).append("\n");
-    sb.append("    string: ").append(toIndentedString(string)).append("\n");
-    sb.append("    integralNumber: ").append(toIndentedString(integralNumber)).append("\n");
-    sb.append("    floatingPointNumber: ").append(toIndentedString(floatingPointNumber)).append("\n");
-    sb.append("    valueNode: ").append(toIndentedString(valueNode)).append("\n");
-    sb.append("    container: ").append(toIndentedString(container)).append("\n");
     sb.append("    missingNode: ").append(toIndentedString(missingNode)).append("\n");
     sb.append("    nodeType: ").append(toIndentedString(nodeType)).append("\n");
+    sb.append("    string: ").append(toIndentedString(string)).append("\n");
+    sb.append("    integralNumber: ").append(toIndentedString(integralNumber)).append("\n");
+    sb.append("    valueNode: ").append(toIndentedString(valueNode)).append("\n");
+    sb.append("    container: ").append(toIndentedString(container)).append("\n");
     sb.append("    pojo: ").append(toIndentedString(pojo)).append("\n");
     sb.append("    _short: ").append(toIndentedString(_short)).append("\n");
     sb.append("    _int: ").append(toIndentedString(_int)).append("\n");
@@ -767,6 +766,7 @@ public class JsonNode {
     sb.append("    textual: ").append(toIndentedString(textual)).append("\n");
     sb.append("    _boolean: ").append(toIndentedString(_boolean)).append("\n");
     sb.append("    binary: ").append(toIndentedString(binary)).append("\n");
+    sb.append("    floatingPointNumber: ").append(toIndentedString(floatingPointNumber)).append("\n");
     sb.append("    number: ").append(toIndentedString(number)).append("\n");
     sb.append("    embeddedValue: ").append(toIndentedString(embeddedValue)).append("\n");
     sb.append("}");
@@ -796,13 +796,12 @@ public class JsonNode {
     openapiFields.add("null");
     openapiFields.add("object");
     openapiFields.add("float");
-    openapiFields.add("string");
-    openapiFields.add("integralNumber");
-    openapiFields.add("floatingPointNumber");
-    openapiFields.add("valueNode");
-    openapiFields.add("container");
     openapiFields.add("missingNode");
     openapiFields.add("nodeType");
+    openapiFields.add("string");
+    openapiFields.add("integralNumber");
+    openapiFields.add("valueNode");
+    openapiFields.add("container");
     openapiFields.add("pojo");
     openapiFields.add("short");
     openapiFields.add("int");
@@ -813,6 +812,7 @@ public class JsonNode {
     openapiFields.add("textual");
     openapiFields.add("boolean");
     openapiFields.add("binary");
+    openapiFields.add("floatingPointNumber");
     openapiFields.add("number");
     openapiFields.add("embeddedValue");
 
