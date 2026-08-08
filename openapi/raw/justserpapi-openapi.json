@@ -243,22 +243,32 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           },
           {
             "name": "result_time",
@@ -316,10 +326,17 @@
           {
             "name": "hours",
             "in": "query",
-            "description": "Time window for trending topics. Supported values: '4' (past 4 hours), '24' (past 24 hours), '48' (past 48 hours), '168' (past 7 days).",
+            "description": "Time window for trending topics.\n\nAvailable Values:\n- `PAST_4_HOURS`: Past 4 hours. Legacy value `4` is also accepted.\n- `PAST_24_HOURS`: Past 24 hours. Legacy value `24` is also accepted.\n- `PAST_48_HOURS`: Past 48 hours. Legacy value `48` is also accepted.\n- `PAST_7_DAYS`: Past 7 days. Legacy value `168` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Trends trending-now time window.",
+              "enum": [
+                "PAST_4_HOURS",
+                "PAST_24_HOURS",
+                "PAST_48_HOURS",
+                "PAST_7_DAYS"
+              ]
             }
           },
           {
@@ -398,19 +415,31 @@
           {
             "name": "region",
             "in": "query",
-            "description": "Refines results for region charts. Supported values: 'COUNTRY', 'REGION', 'DMA', 'CITY'.",
+            "description": "Refines results for region charts.\n\nAvailable Values:\n- `COUNTRY`: Country-level results.\n- `REGION`: Region-level results.\n- `DMA`: Designated market area results.\n- `CITY`: City-level results.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Trends region chart refinement.",
+              "enum": [
+                "COUNTRY",
+                "REGION",
+                "DMA",
+                "CITY"
+              ]
             }
           },
           {
             "name": "data_type",
             "in": "query",
-            "description": "The type of trend data to retrieve. Supported values: 'TIMESERIES' (Interest over time), 'GEO_MAP' (Breakdown by region).",
+            "description": "The type of trend data to retrieve.\n\nAvailable Values:\n- `INTEREST_OVER_TIME`: Interest over time. Legacy value `TIMESERIES` is also accepted.\n- `REGION_BREAKDOWN`: Breakdown by region. Legacy value `GEO_MAP` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Trends data type.",
+              "enum": [
+                "INTEREST_OVER_TIME",
+                "REGION_BREAKDOWN"
+              ]
             }
           },
           {
@@ -436,10 +465,17 @@
           {
             "name": "gprop",
             "in": "query",
-            "description": "The Google property to filter trends. Supported values: 'images', 'news', 'froogle' (Shopping), 'youtube'.",
+            "description": "The Google property to filter trends.\n\nAvailable Values:\n- `IMAGES`: Google Images. Legacy value `images` is also accepted.\n- `NEWS`: Google News. Legacy value `news` is also accepted.\n- `SHOPPING`: Google Shopping. Legacy value `froogle` is also accepted.\n- `YOUTUBE`: YouTube. Legacy value `youtube` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Trends property filter.",
+              "enum": [
+                "IMAGES",
+                "NEWS",
+                "SHOPPING",
+                "YOUTUBE"
+              ]
             }
           },
           {
@@ -630,22 +666,32 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           }
         ],
         "responses": {
@@ -781,22 +827,32 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           }
         ],
         "responses": {
@@ -995,30 +1051,45 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           },
           {
             "name": "filter",
             "in": "query",
-            "description": "Toggle 'Similar Results' and 'Omitted Results' filters. Set to '1' (default) to enable, '0' to disable.",
+            "description": "Toggle similar-results and omitted-results filtering.\n\nAvailable Values:\n- `DISABLED`: Disable similar and omitted results filtering. Legacy value `0` is also accepted.\n- `ENABLED`: Enable similar and omitted results filtering. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google result filter toggle.",
+              "enum": [
+                "DISABLED",
+                "ENABLED"
+              ]
             }
           }
         ],
@@ -1218,30 +1289,45 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           },
           {
             "name": "filter",
             "in": "query",
-            "description": "Toggle 'Similar Results' and 'Omitted Results' filters. Set to '1' (default) to enable, '0' to disable.",
+            "description": "Toggle similar-results and omitted-results filtering.\n\nAvailable Values:\n- `DISABLED`: Disable similar and omitted results filtering. Legacy value `0` is also accepted.\n- `ENABLED`: Enable similar and omitted results filtering. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google result filter toggle.",
+              "enum": [
+                "DISABLED",
+                "ENABLED"
+              ]
             }
           }
         ],
@@ -1441,30 +1527,45 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           },
           {
             "name": "filter",
             "in": "query",
-            "description": "Toggle 'Similar Results' and 'Omitted Results' filters. Set to '1' (default) to enable, '0' to disable.",
+            "description": "Toggle similar-results and omitted-results filtering.\n\nAvailable Values:\n- `DISABLED`: Disable similar and omitted results filtering. Legacy value `0` is also accepted.\n- `ENABLED`: Enable similar and omitted results filtering. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google result filter toggle.",
+              "enum": [
+                "DISABLED",
+                "ENABLED"
+              ]
             }
           }
         ],
@@ -1499,14 +1600,14 @@
           "Google Scholar"
         ],
         "summary": "Search",
-        "description": "Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.",
+        "description": "Search Google Scholar papers, patents, legal documents, citations, and article versions for literature review and academic monitoring. Provide query, cites, or cluster; cluster cannot be combined with query or cites.",
         "operationId": "ScholarSearch",
         "parameters": [
           {
             "name": "query",
             "in": "query",
-            "description": "The academic search query (e.g., 'machine learning', 'CRISPR gene editing'). Supports advanced operators like 'author:'.",
-            "required": true,
+            "description": "The academic search query (e.g., 'machine learning', 'CRISPR gene editing'). Supports advanced operators like 'author:'. Required unless cites or cluster is provided, and cannot be combined with cluster.",
+            "required": false,
             "schema": {
               "type": "string"
             }
@@ -1524,7 +1625,7 @@
           {
             "name": "cites",
             "in": "query",
-            "description": "Return articles that cite the article with the specified ID.",
+            "description": "Return articles that cite the article with the specified ID. Can be used alone or with query, but cannot be combined with cluster.",
             "required": false,
             "schema": {
               "type": "string"
@@ -1551,16 +1652,21 @@
           {
             "name": "scisbd",
             "in": "query",
-            "description": "Controls whether to return only abstract results (1) or all results (0).",
+            "description": "Controls whether to return only abstract results or all results.\n\nAvailable Values:\n- `ALL_RESULTS`: Return all results. Legacy value `0` is also accepted.\n- `ABSTRACT_RESULTS_ONLY`: Return abstract results only. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Scholar abstract-result filter.",
+              "enum": [
+                "ALL_RESULTS",
+                "ABSTRACT_RESULTS_ONLY"
+              ]
             }
           },
           {
             "name": "cluster",
             "in": "query",
-            "description": "The unique ID of an article cluster to retrieve all versions of a specific work.",
+            "description": "The unique ID of an article cluster to retrieve all versions of a specific work. Cannot be combined with query or cites.",
             "required": false,
             "schema": {
               "type": "string"
@@ -1619,12 +1725,17 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "filter",
@@ -1638,19 +1749,29 @@
           {
             "name": "as_vis",
             "in": "query",
-            "description": "Controls whether citations are included in the results: 1 = exclude, 0 (default) = include.",
+            "description": "Controls whether citations are included in the results.\n\nAvailable Values:\n- `INCLUDE_CITATIONS`: Include citations in the results. Legacy value `0` is also accepted.\n- `EXCLUDE_CITATIONS`: Exclude citations from the results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Scholar citation visibility filter.",
+              "enum": [
+                "INCLUDE_CITATIONS",
+                "EXCLUDE_CITATIONS"
+              ]
             }
           },
           {
             "name": "as_rr",
             "in": "query",
-            "description": "Controls whether to show only review articles (topic overviews or discussions of the searched works/authors). Set to 1 to enable the filter, or 0 (default) to return all results.",
+            "description": "Controls whether to show only review articles or return all results.\n\nAvailable Values:\n- `ALL_RESULTS`: Return all results. Legacy value `0` is also accepted.\n- `REVIEW_ARTICLES_ONLY`: Return review articles only. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Scholar review-article filter.",
+              "enum": [
+                "ALL_RESULTS",
+                "REVIEW_ARTICLES_ONLY"
+              ]
             }
           }
         ],
@@ -1775,19 +1896,29 @@
           {
             "name": "view_op",
             "in": "query",
-            "description": "Specific view operation for the author profile. Use 'list_colleagues' to see co-authors or 'view_citation' for article details.",
+            "description": "Specific view operation for the author profile.\n\nAvailable Values:\n- `LIST_COLLEAGUES`: List co-authors. Legacy value `list_colleagues` is also accepted.\n- `VIEW_CITATION`: View citation details. Legacy value `view_citation` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Scholar author profile view operation.",
+              "enum": [
+                "LIST_COLLEAGUES",
+                "VIEW_CITATION"
+              ]
             }
           },
           {
             "name": "sort",
             "in": "query",
-            "description": "Sorting criteria for the author's publications. Supported values: 'title', 'pubdate'.",
+            "description": "Sorting criteria for the author's publications.\n\nAvailable Values:\n- `TITLE`: Sort by title. Legacy value `title` is also accepted.\n- `PUBLICATION_DATE`: Sort by publication date. Legacy value `pubdate` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Scholar author publication sort order.",
+              "enum": [
+                "TITLE",
+                "PUBLICATION_DATE"
+              ]
             }
           },
           {
@@ -1868,10 +1999,15 @@
           {
             "name": "sort",
             "in": "query",
-            "description": "Sorting order for patent results. Supported values: 'new' (Newest), 'old' (Oldest).",
+            "description": "Sorting order for patent results.\n\nAvailable Values:\n- `NEWEST`: Newest first. Legacy value `new` is also accepted.\n- `OLDEST`: Oldest first. Legacy value `old` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Patents sort order.",
+              "enum": [
+                "NEWEST",
+                "OLDEST"
+              ]
             }
           },
           {
@@ -1886,10 +2022,14 @@
           {
             "name": "dups",
             "in": "query",
-            "description": "Deduplication method. Supported values: 'language' (by Publication).",
+            "description": "Deduplication method.\n\nAvailable Values:\n- `LANGUAGE`: Deduplicate by publication language. Legacy value `language` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Patents deduplication method.",
+              "enum": [
+                "LANGUAGE"
+              ]
             }
           },
           {
@@ -1971,28 +2111,43 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Filter by patent status. Supported values: 'GRANT', 'APPLICATION'.",
+            "description": "Filter by patent status.\n\nAvailable Values:\n- `GRANT`: Granted patents.\n- `APPLICATION`: Patent applications.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Patents status filter.",
+              "enum": [
+                "GRANT",
+                "APPLICATION"
+              ]
             }
           },
           {
             "name": "type",
             "in": "query",
-            "description": "Filter by patent type. Supported values: 'PATENT', 'DESIGN'.",
+            "description": "Filter by patent type.\n\nAvailable Values:\n- `PATENT`: Patent.\n- `DESIGN`: Design patent.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Patents type filter.",
+              "enum": [
+                "PATENT",
+                "DESIGN"
+              ]
             }
           },
           {
             "name": "litigation",
             "in": "query",
-            "description": "Filter by litigation status. Supported values: 'YES', 'NO'.",
+            "description": "Filter by litigation status.\n\nAvailable Values:\n- `YES`: Patents with litigation.\n- `NO`: Patents without litigation.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Patents litigation filter.",
+              "enum": [
+                "YES",
+                "NO"
+              ]
             }
           }
         ],
@@ -2153,10 +2308,15 @@
           {
             "name": "so",
             "in": "query",
-            "description": "Sorting order for news results. Supported values: '0' (Relevance, default), '1' (Date). Only works with 'story_token'.",
+            "description": "Sorting order for news results. Only works with 'story_token'.\n\nAvailable Values:\n- `RELEVANCE`: Relevance. Legacy value `0` is also accepted.\n- `DATE`: Date. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google News sorting order.",
+              "enum": [
+                "RELEVANCE",
+                "DATE"
+              ]
             }
           }
         ],
@@ -2328,12 +2488,19 @@
           {
             "name": "sort_by",
             "in": "query",
-            "description": "Sorting order for reviews. Supported values: 'qualityScore' (Relevance), 'newestFirst' (Newest), 'ratingHigh' (Highest rating), 'ratingLow' (Lowest rating).",
+            "description": "Sorting order for reviews.\n\nAvailable Values:\n- `RELEVANCE`: Relevance. Legacy value `qualityScore` is also accepted.\n- `NEWEST`: Newest first. Legacy value `newestFirst` is also accepted.\n- `HIGHEST_RATING`: Highest rating first. Legacy value `ratingHigh` is also accepted.\n- `LOWEST_RATING`: Lowest rating first. Legacy value `ratingLow` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Maps review sort order.",
+              "enum": [
+                "RELEVANCE",
+                "NEWEST",
+                "HIGHEST_RATING",
+                "LOWEST_RATING"
+              ]
             },
-            "example": "qualityScore"
+            "example": "RELEVANCE"
           },
           {
             "name": "topic_id",
@@ -3094,10 +3261,20 @@
           {
             "name": "period_unit",
             "in": "query",
-            "description": "Time unit for 'recent' image results. Supported values: 's' (Second), 'n' (Minute), 'h' (Hour), 'd' (Day), 'w' (Week), 'm' (Month), 'y' (Year).",
+            "description": "Time unit for recent image results.\n\nAvailable Values:\n- `SECOND`: Second. Legacy value `s` is also accepted.\n- `MINUTE`: Minute. Legacy value `n` is also accepted.\n- `HOUR`: Hour. Legacy value `h` is also accepted.\n- `DAY`: Day. Legacy value `d` is also accepted.\n- `WEEK`: Week. Legacy value `w` is also accepted.\n- `MONTH`: Month. Legacy value `m` is also accepted.\n- `YEAR`: Year. Legacy value `y` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Images recent-result time unit.",
+              "enum": [
+                "SECOND",
+                "MINUTE",
+                "HOUR",
+                "DAY",
+                "WEEK",
+                "MONTH",
+                "YEAR"
+              ]
             }
           },
           {
@@ -3148,19 +3325,32 @@
           {
             "name": "imgar",
             "in": "query",
-            "description": "Filter by image aspect ratio. Supported values: 's' (Square), 't' (Tall), 'w' (Wide), 'xw' (Panoramic).",
+            "description": "Filter by image aspect ratio.\n\nAvailable Values:\n- `SQUARE`: Square images. Legacy value `s` is also accepted.\n- `TALL`: Tall images. Legacy value `t` is also accepted.\n- `WIDE`: Wide images. Legacy value `w` is also accepted.\n- `PANORAMIC`: Panoramic images. Legacy value `xw` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Images aspect-ratio filter.",
+              "enum": [
+                "SQUARE",
+                "TALL",
+                "WIDE",
+                "PANORAMIC"
+              ]
             }
           },
           {
             "name": "imgsz",
             "in": "query",
-            "description": "Filter by image size. Supported values: 'l' (Large), 'm' (Medium), 'i' (Icon), and specific resolutions like '4mp', '10mp'.",
+            "description": "Filter by image size.\n\nAvailable Values:\n- `LARGE`: Large images. Legacy value `l` is also accepted.\n- `MEDIUM`: Medium images. Legacy value `m` is also accepted.\n- `ICON`: Icon-sized images. Legacy value `i` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Images size filter.",
+              "enum": [
+                "LARGE",
+                "MEDIUM",
+                "ICON"
+              ]
             }
           },
           {
@@ -3184,39 +3374,60 @@
           {
             "name": "licenses",
             "in": "query",
-            "description": "Filter by usage rights and licenses. Supported values: 'f' (Free to use), 'fc' (Commercial use), 'cl' (Creative Commons).",
+            "description": "Filter by usage rights and licenses.\n\nAvailable Values:\n- `FREE_TO_USE`: Free to use. Legacy value `f` is also accepted.\n- `COMMERCIAL_USE`: Commercial use. Legacy value `fc` is also accepted.\n- `CREATIVE_COMMONS`: Creative Commons. Legacy value `cl` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Images license filter.",
+              "enum": [
+                "FREE_TO_USE",
+                "COMMERCIAL_USE",
+                "CREATIVE_COMMONS"
+              ]
             }
           },
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           },
           {
             "name": "nfpr",
             "in": "query",
-            "description": "Controls Google's auto-correction. Set to '1' to exclude corrected results, '0' to include them.",
+            "description": "Controls Google's auto-correction.\n\nAvailable Values:\n- `INCLUDE_CORRECTED_RESULTS`: Include corrected results. Legacy value `0` is also accepted.\n- `EXCLUDE_CORRECTED_RESULTS`: Exclude corrected results. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google auto-correction setting.",
+              "enum": [
+                "INCLUDE_CORRECTED_RESULTS",
+                "EXCLUDE_CORRECTED_RESULTS"
+              ]
             },
-            "example": 0
+            "example": "INCLUDE_CORRECTED_RESULTS"
           },
           {
             "name": "filter",
             "in": "query",
-            "description": "Toggle 'Similar Results' and 'Omitted Results' filters. Set to '1' (default) to enable, '0' to disable.",
+            "description": "Toggle similar-results and omitted-results filtering.\n\nAvailable Values:\n- `DISABLED`: Disable similar and omitted results filtering. Legacy value `0` is also accepted.\n- `ENABLED`: Enable similar and omitted results filtering. Legacy value `1` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google result filter toggle.",
+              "enum": [
+                "DISABLED",
+                "ENABLED"
+              ]
             }
           }
         ],
@@ -3364,10 +3575,16 @@
           {
             "name": "sort_by",
             "in": "query",
-            "description": "The criteria to sort hotel results. Supported values: '3' (Lowest price), '8' (Highest rating), '13' (Most reviews).",
+            "description": "The criteria to sort hotel results.\n\nAvailable Values:\n- `LOWEST_PRICE`: Lowest price. Legacy value `3` is also accepted.\n- `HIGHEST_RATING`: Highest rating. Legacy value `8` is also accepted.\n- `MOST_REVIEWS`: Most reviews. Legacy value `13` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Hotels sort order.",
+              "enum": [
+                "LOWEST_PRICE",
+                "HIGHEST_RATING",
+                "MOST_REVIEWS"
+              ]
             }
           },
           {
@@ -3409,10 +3626,16 @@
           {
             "name": "rating",
             "in": "query",
-            "description": "Filter by minimum guest rating. Supported values: '7' (3.5+), '8' (4.0+), '9' (4.5+).",
+            "description": "Filter by minimum guest rating.\n\nAvailable Values:\n- `AT_LEAST_3_5`: 3.5+ guest rating. Legacy value `7` is also accepted.\n- `AT_LEAST_4_0`: 4.0+ guest rating. Legacy value `8` is also accepted.\n- `AT_LEAST_4_5`: 4.5+ guest rating. Legacy value `9` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google Hotels minimum guest rating filter.",
+              "enum": [
+                "AT_LEAST_3_5",
+                "AT_LEAST_4_0",
+                "AT_LEAST_4_5"
+              ]
             }
           },
           {
@@ -3754,12 +3977,17 @@
           {
             "name": "safe",
             "in": "query",
-            "description": "SafeSearch filter setting. Set to 'active' to filter adult content, or 'off' to disable it.",
+            "description": "SafeSearch filter setting.\n\nAvailable Values:\n- `ACTIVE`: Filter adult content. Legacy value `active` is also accepted.\n- `OFF`: Disable SafeSearch filtering. Legacy value `off` is also accepted.",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "description": "Google SafeSearch filter setting.",
+              "enum": [
+                "ACTIVE",
+                "OFF"
+              ]
             },
-            "example": "off"
+            "example": "OFF"
           }
         ],
         "responses": {
@@ -3808,15 +4036,6 @@
           "float": {
             "type": "boolean"
           },
-          "string": {
-            "type": "boolean"
-          },
-          "integralNumber": {
-            "type": "boolean"
-          },
-          "floatingPointNumber": {
-            "type": "boolean"
-          },
           "valueNode": {
             "type": "boolean"
           },
@@ -3839,6 +4058,15 @@
               "POJO",
               "STRING"
             ]
+          },
+          "string": {
+            "type": "boolean"
+          },
+          "integralNumber": {
+            "type": "boolean"
+          },
+          "floatingPointNumber": {
+            "type": "boolean"
           },
           "pojo": {
             "type": "boolean"
