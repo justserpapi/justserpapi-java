@@ -79,7 +79,7 @@ public class GoogleApi {
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param location The textual location name (e.g., &#39;New York, NY&#39;) to localize the search results. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -181,7 +181,7 @@ public class GoogleApi {
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param location The textual location name (e.g., &#39;New York, NY&#39;) to localize the search results. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -208,7 +208,7 @@ public class GoogleApi {
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param location The textual location name (e.g., &#39;New York, NY&#39;) to localize the search results. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -236,7 +236,7 @@ public class GoogleApi {
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param location The textual location name (e.g., &#39;New York, NY&#39;) to localize the search results. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -741,12 +741,12 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param currency The three-letter ISO currency code for displaying prices (e.g., &#39;USD&#39;, &#39;EUR&#39;). See &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-currency\&quot;&gt;Google Hotels Currency&lt;/a&gt;. (optional)
-     * @param sortBy The criteria to sort hotel results. Supported values: &#39;3&#39; (Lowest price), &#39;8&#39; (Highest rating), &#39;13&#39; (Most reviews). (optional)
+     * @param sortBy The criteria to sort hotel results.  Available Values: - &#x60;LOWEST_PRICE&#x60;: Lowest price. Legacy value &#x60;3&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;MOST_REVIEWS&#x60;: Most reviews. Legacy value &#x60;13&#x60; is also accepted. (optional)
      * @param minPrice Minimum price filter for the hotel stay. (optional)
      * @param maxPrice Maximum price filter for the hotel stay. (optional)
      * @param propertyTypes Filter by hotel property types. See the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-property-types\&quot;&gt;Google Property Types&lt;/a&gt; for the full list of supported hotel property types. For vacation rentals, refer to the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-property-types\&quot;&gt;Google Hotels Vacation Rentals Property Types&lt;/a&gt;. (optional)
      * @param amenities Filter by specific amenities (e.g., &#39;35&#39; for free Wi-Fi). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-amenities\&quot;&gt;Google Hotels Amenities&lt;/a&gt; (hotel amenities). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-amenities\&quot;&gt;Google Hotels Vacation Rentals Amenities&lt;/a&gt; (vacation rental amenities) (optional)
-     * @param rating Filter by minimum guest rating. Supported values: &#39;7&#39; (3.5+), &#39;8&#39; (4.0+), &#39;9&#39; (4.5+). (optional)
+     * @param rating Filter by minimum guest rating.  Available Values: - &#x60;AT_LEAST_3_5&#x60;: 3.5+ guest rating. Legacy value &#x60;7&#x60; is also accepted. - &#x60;AT_LEAST_4_0&#x60;: 4.0+ guest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;AT_LEAST_4_5&#x60;: 4.5+ guest rating. Legacy value &#x60;9&#x60; is also accepted. (optional)
      * @param brands Filter by specific hotel brand IDs. IDs can be comma-separated. (optional)
      * @param hotelClass Filter by hotel star ratings. Supported values: &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;. Can be comma-separated. (optional)
      * @param freeCancellation Filter for hotels that offer free cancellation. Set to &#39;1&#39; or &#39;true&#39; to enable. (optional)
@@ -953,12 +953,12 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param currency The three-letter ISO currency code for displaying prices (e.g., &#39;USD&#39;, &#39;EUR&#39;). See &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-currency\&quot;&gt;Google Hotels Currency&lt;/a&gt;. (optional)
-     * @param sortBy The criteria to sort hotel results. Supported values: &#39;3&#39; (Lowest price), &#39;8&#39; (Highest rating), &#39;13&#39; (Most reviews). (optional)
+     * @param sortBy The criteria to sort hotel results.  Available Values: - &#x60;LOWEST_PRICE&#x60;: Lowest price. Legacy value &#x60;3&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;MOST_REVIEWS&#x60;: Most reviews. Legacy value &#x60;13&#x60; is also accepted. (optional)
      * @param minPrice Minimum price filter for the hotel stay. (optional)
      * @param maxPrice Maximum price filter for the hotel stay. (optional)
      * @param propertyTypes Filter by hotel property types. See the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-property-types\&quot;&gt;Google Property Types&lt;/a&gt; for the full list of supported hotel property types. For vacation rentals, refer to the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-property-types\&quot;&gt;Google Hotels Vacation Rentals Property Types&lt;/a&gt;. (optional)
      * @param amenities Filter by specific amenities (e.g., &#39;35&#39; for free Wi-Fi). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-amenities\&quot;&gt;Google Hotels Amenities&lt;/a&gt; (hotel amenities). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-amenities\&quot;&gt;Google Hotels Vacation Rentals Amenities&lt;/a&gt; (vacation rental amenities) (optional)
-     * @param rating Filter by minimum guest rating. Supported values: &#39;7&#39; (3.5+), &#39;8&#39; (4.0+), &#39;9&#39; (4.5+). (optional)
+     * @param rating Filter by minimum guest rating.  Available Values: - &#x60;AT_LEAST_3_5&#x60;: 3.5+ guest rating. Legacy value &#x60;7&#x60; is also accepted. - &#x60;AT_LEAST_4_0&#x60;: 4.0+ guest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;AT_LEAST_4_5&#x60;: 4.5+ guest rating. Legacy value &#x60;9&#x60; is also accepted. (optional)
      * @param brands Filter by specific hotel brand IDs. IDs can be comma-separated. (optional)
      * @param hotelClass Filter by hotel star ratings. Supported values: &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;. Can be comma-separated. (optional)
      * @param freeCancellation Filter for hotels that offer free cancellation. Set to &#39;1&#39; or &#39;true&#39; to enable. (optional)
@@ -1000,12 +1000,12 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param currency The three-letter ISO currency code for displaying prices (e.g., &#39;USD&#39;, &#39;EUR&#39;). See &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-currency\&quot;&gt;Google Hotels Currency&lt;/a&gt;. (optional)
-     * @param sortBy The criteria to sort hotel results. Supported values: &#39;3&#39; (Lowest price), &#39;8&#39; (Highest rating), &#39;13&#39; (Most reviews). (optional)
+     * @param sortBy The criteria to sort hotel results.  Available Values: - &#x60;LOWEST_PRICE&#x60;: Lowest price. Legacy value &#x60;3&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;MOST_REVIEWS&#x60;: Most reviews. Legacy value &#x60;13&#x60; is also accepted. (optional)
      * @param minPrice Minimum price filter for the hotel stay. (optional)
      * @param maxPrice Maximum price filter for the hotel stay. (optional)
      * @param propertyTypes Filter by hotel property types. See the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-property-types\&quot;&gt;Google Property Types&lt;/a&gt; for the full list of supported hotel property types. For vacation rentals, refer to the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-property-types\&quot;&gt;Google Hotels Vacation Rentals Property Types&lt;/a&gt;. (optional)
      * @param amenities Filter by specific amenities (e.g., &#39;35&#39; for free Wi-Fi). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-amenities\&quot;&gt;Google Hotels Amenities&lt;/a&gt; (hotel amenities). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-amenities\&quot;&gt;Google Hotels Vacation Rentals Amenities&lt;/a&gt; (vacation rental amenities) (optional)
-     * @param rating Filter by minimum guest rating. Supported values: &#39;7&#39; (3.5+), &#39;8&#39; (4.0+), &#39;9&#39; (4.5+). (optional)
+     * @param rating Filter by minimum guest rating.  Available Values: - &#x60;AT_LEAST_3_5&#x60;: 3.5+ guest rating. Legacy value &#x60;7&#x60; is also accepted. - &#x60;AT_LEAST_4_0&#x60;: 4.0+ guest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;AT_LEAST_4_5&#x60;: 4.5+ guest rating. Legacy value &#x60;9&#x60; is also accepted. (optional)
      * @param brands Filter by specific hotel brand IDs. IDs can be comma-separated. (optional)
      * @param hotelClass Filter by hotel star ratings. Supported values: &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;. Can be comma-separated. (optional)
      * @param freeCancellation Filter for hotels that offer free cancellation. Set to &#39;1&#39; or &#39;true&#39; to enable. (optional)
@@ -1048,12 +1048,12 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param currency The three-letter ISO currency code for displaying prices (e.g., &#39;USD&#39;, &#39;EUR&#39;). See &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-currency\&quot;&gt;Google Hotels Currency&lt;/a&gt;. (optional)
-     * @param sortBy The criteria to sort hotel results. Supported values: &#39;3&#39; (Lowest price), &#39;8&#39; (Highest rating), &#39;13&#39; (Most reviews). (optional)
+     * @param sortBy The criteria to sort hotel results.  Available Values: - &#x60;LOWEST_PRICE&#x60;: Lowest price. Legacy value &#x60;3&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;MOST_REVIEWS&#x60;: Most reviews. Legacy value &#x60;13&#x60; is also accepted. (optional)
      * @param minPrice Minimum price filter for the hotel stay. (optional)
      * @param maxPrice Maximum price filter for the hotel stay. (optional)
      * @param propertyTypes Filter by hotel property types. See the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-property-types\&quot;&gt;Google Property Types&lt;/a&gt; for the full list of supported hotel property types. For vacation rentals, refer to the &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-property-types\&quot;&gt;Google Hotels Vacation Rentals Property Types&lt;/a&gt;. (optional)
      * @param amenities Filter by specific amenities (e.g., &#39;35&#39; for free Wi-Fi). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-amenities\&quot;&gt;Google Hotels Amenities&lt;/a&gt; (hotel amenities). &lt;a href&#x3D;\&quot;/reference/hotels/google-hotels-vacation-rentals-amenities\&quot;&gt;Google Hotels Vacation Rentals Amenities&lt;/a&gt; (vacation rental amenities) (optional)
-     * @param rating Filter by minimum guest rating. Supported values: &#39;7&#39; (3.5+), &#39;8&#39; (4.0+), &#39;9&#39; (4.5+). (optional)
+     * @param rating Filter by minimum guest rating.  Available Values: - &#x60;AT_LEAST_3_5&#x60;: 3.5+ guest rating. Legacy value &#x60;7&#x60; is also accepted. - &#x60;AT_LEAST_4_0&#x60;: 4.0+ guest rating. Legacy value &#x60;8&#x60; is also accepted. - &#x60;AT_LEAST_4_5&#x60;: 4.5+ guest rating. Legacy value &#x60;9&#x60; is also accepted. (optional)
      * @param brands Filter by specific hotel brand IDs. IDs can be comma-separated. (optional)
      * @param hotelClass Filter by hotel star ratings. Supported values: &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;. Can be comma-separated. (optional)
      * @param freeCancellation Filter for hotels that offer free cancellation. Set to &#39;1&#39; or &#39;true&#39; to enable. (optional)
@@ -1241,20 +1241,20 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
-     * @param periodUnit Time unit for &#39;recent&#39; image results. Supported values: &#39;s&#39; (Second), &#39;n&#39; (Minute), &#39;h&#39; (Hour), &#39;d&#39; (Day), &#39;w&#39; (Week), &#39;m&#39; (Month), &#39;y&#39; (Year). (optional)
+     * @param periodUnit Time unit for recent image results.  Available Values: - &#x60;SECOND&#x60;: Second. Legacy value &#x60;s&#x60; is also accepted. - &#x60;MINUTE&#x60;: Minute. Legacy value &#x60;n&#x60; is also accepted. - &#x60;HOUR&#x60;: Hour. Legacy value &#x60;h&#x60; is also accepted. - &#x60;DAY&#x60;: Day. Legacy value &#x60;d&#x60; is also accepted. - &#x60;WEEK&#x60;: Week. Legacy value &#x60;w&#x60; is also accepted. - &#x60;MONTH&#x60;: Month. Legacy value &#x60;m&#x60; is also accepted. - &#x60;YEAR&#x60;: Year. Legacy value &#x60;y&#x60; is also accepted. (optional)
      * @param periodValue Time duration value used with &#39;period_unit&#39; (e.g., 15 for 15 days). Default: 1. (optional)
      * @param startDate Start date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241201&#39;). (optional)
      * @param endDate End date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241231&#39;). (optional)
      * @param chips Additional suggested search terms (chips) to filter images. Values are obtained from previous responses. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param imgar Filter by image aspect ratio. Supported values: &#39;s&#39; (Square), &#39;t&#39; (Tall), &#39;w&#39; (Wide), &#39;xw&#39; (Panoramic). (optional)
-     * @param imgsz Filter by image size. Supported values: &#39;l&#39; (Large), &#39;m&#39; (Medium), &#39;i&#39; (Icon), and specific resolutions like &#39;4mp&#39;, &#39;10mp&#39;. (optional)
+     * @param imgar Filter by image aspect ratio.  Available Values: - &#x60;SQUARE&#x60;: Square images. Legacy value &#x60;s&#x60; is also accepted. - &#x60;TALL&#x60;: Tall images. Legacy value &#x60;t&#x60; is also accepted. - &#x60;WIDE&#x60;: Wide images. Legacy value &#x60;w&#x60; is also accepted. - &#x60;PANORAMIC&#x60;: Panoramic images. Legacy value &#x60;xw&#x60; is also accepted. (optional)
+     * @param imgsz Filter by image size.  Available Values: - &#x60;LARGE&#x60;: Large images. Legacy value &#x60;l&#x60; is also accepted. - &#x60;MEDIUM&#x60;: Medium images. Legacy value &#x60;m&#x60; is also accepted. - &#x60;ICON&#x60;: Icon-sized images. Legacy value &#x60;i&#x60; is also accepted. (optional)
      * @param imageColor Filter images by a dominant color (e.g., &#39;red&#39;, &#39;blue&#39;, &#39;bw&#39; for black and white, &#39;trans&#39; for transparent). (optional)
      * @param imageType Filter by image type. Supported values: &#39;face&#39;, &#39;photo&#39;, &#39;clipart&#39;, &#39;lineart&#39;, &#39;animated&#39;. (optional)
-     * @param licenses Filter by usage rights and licenses. Supported values: &#39;f&#39; (Free to use), &#39;fc&#39; (Commercial use), &#39;cl&#39; (Creative Commons). (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param licenses Filter by usage rights and licenses.  Available Values: - &#x60;FREE_TO_USE&#x60;: Free to use. Legacy value &#x60;f&#x60; is also accepted. - &#x60;COMMERCIAL_USE&#x60;: Commercial use. Legacy value &#x60;fc&#x60; is also accepted. - &#x60;CREATIVE_COMMONS&#x60;: Creative Commons. Legacy value &#x60;cl&#x60; is also accepted. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -1428,20 +1428,20 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
-     * @param periodUnit Time unit for &#39;recent&#39; image results. Supported values: &#39;s&#39; (Second), &#39;n&#39; (Minute), &#39;h&#39; (Hour), &#39;d&#39; (Day), &#39;w&#39; (Week), &#39;m&#39; (Month), &#39;y&#39; (Year). (optional)
+     * @param periodUnit Time unit for recent image results.  Available Values: - &#x60;SECOND&#x60;: Second. Legacy value &#x60;s&#x60; is also accepted. - &#x60;MINUTE&#x60;: Minute. Legacy value &#x60;n&#x60; is also accepted. - &#x60;HOUR&#x60;: Hour. Legacy value &#x60;h&#x60; is also accepted. - &#x60;DAY&#x60;: Day. Legacy value &#x60;d&#x60; is also accepted. - &#x60;WEEK&#x60;: Week. Legacy value &#x60;w&#x60; is also accepted. - &#x60;MONTH&#x60;: Month. Legacy value &#x60;m&#x60; is also accepted. - &#x60;YEAR&#x60;: Year. Legacy value &#x60;y&#x60; is also accepted. (optional)
      * @param periodValue Time duration value used with &#39;period_unit&#39; (e.g., 15 for 15 days). Default: 1. (optional)
      * @param startDate Start date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241201&#39;). (optional)
      * @param endDate End date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241231&#39;). (optional)
      * @param chips Additional suggested search terms (chips) to filter images. Values are obtained from previous responses. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param imgar Filter by image aspect ratio. Supported values: &#39;s&#39; (Square), &#39;t&#39; (Tall), &#39;w&#39; (Wide), &#39;xw&#39; (Panoramic). (optional)
-     * @param imgsz Filter by image size. Supported values: &#39;l&#39; (Large), &#39;m&#39; (Medium), &#39;i&#39; (Icon), and specific resolutions like &#39;4mp&#39;, &#39;10mp&#39;. (optional)
+     * @param imgar Filter by image aspect ratio.  Available Values: - &#x60;SQUARE&#x60;: Square images. Legacy value &#x60;s&#x60; is also accepted. - &#x60;TALL&#x60;: Tall images. Legacy value &#x60;t&#x60; is also accepted. - &#x60;WIDE&#x60;: Wide images. Legacy value &#x60;w&#x60; is also accepted. - &#x60;PANORAMIC&#x60;: Panoramic images. Legacy value &#x60;xw&#x60; is also accepted. (optional)
+     * @param imgsz Filter by image size.  Available Values: - &#x60;LARGE&#x60;: Large images. Legacy value &#x60;l&#x60; is also accepted. - &#x60;MEDIUM&#x60;: Medium images. Legacy value &#x60;m&#x60; is also accepted. - &#x60;ICON&#x60;: Icon-sized images. Legacy value &#x60;i&#x60; is also accepted. (optional)
      * @param imageColor Filter images by a dominant color (e.g., &#39;red&#39;, &#39;blue&#39;, &#39;bw&#39; for black and white, &#39;trans&#39; for transparent). (optional)
      * @param imageType Filter by image type. Supported values: &#39;face&#39;, &#39;photo&#39;, &#39;clipart&#39;, &#39;lineart&#39;, &#39;animated&#39;. (optional)
-     * @param licenses Filter by usage rights and licenses. Supported values: &#39;f&#39; (Free to use), &#39;fc&#39; (Commercial use), &#39;cl&#39; (Creative Commons). (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param licenses Filter by usage rights and licenses.  Available Values: - &#x60;FREE_TO_USE&#x60;: Free to use. Legacy value &#x60;f&#x60; is also accepted. - &#x60;COMMERCIAL_USE&#x60;: Commercial use. Legacy value &#x60;fc&#x60; is also accepted. - &#x60;CREATIVE_COMMONS&#x60;: Creative Commons. Legacy value &#x60;cl&#x60; is also accepted. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -1472,20 +1472,20 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
-     * @param periodUnit Time unit for &#39;recent&#39; image results. Supported values: &#39;s&#39; (Second), &#39;n&#39; (Minute), &#39;h&#39; (Hour), &#39;d&#39; (Day), &#39;w&#39; (Week), &#39;m&#39; (Month), &#39;y&#39; (Year). (optional)
+     * @param periodUnit Time unit for recent image results.  Available Values: - &#x60;SECOND&#x60;: Second. Legacy value &#x60;s&#x60; is also accepted. - &#x60;MINUTE&#x60;: Minute. Legacy value &#x60;n&#x60; is also accepted. - &#x60;HOUR&#x60;: Hour. Legacy value &#x60;h&#x60; is also accepted. - &#x60;DAY&#x60;: Day. Legacy value &#x60;d&#x60; is also accepted. - &#x60;WEEK&#x60;: Week. Legacy value &#x60;w&#x60; is also accepted. - &#x60;MONTH&#x60;: Month. Legacy value &#x60;m&#x60; is also accepted. - &#x60;YEAR&#x60;: Year. Legacy value &#x60;y&#x60; is also accepted. (optional)
      * @param periodValue Time duration value used with &#39;period_unit&#39; (e.g., 15 for 15 days). Default: 1. (optional)
      * @param startDate Start date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241201&#39;). (optional)
      * @param endDate End date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241231&#39;). (optional)
      * @param chips Additional suggested search terms (chips) to filter images. Values are obtained from previous responses. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param imgar Filter by image aspect ratio. Supported values: &#39;s&#39; (Square), &#39;t&#39; (Tall), &#39;w&#39; (Wide), &#39;xw&#39; (Panoramic). (optional)
-     * @param imgsz Filter by image size. Supported values: &#39;l&#39; (Large), &#39;m&#39; (Medium), &#39;i&#39; (Icon), and specific resolutions like &#39;4mp&#39;, &#39;10mp&#39;. (optional)
+     * @param imgar Filter by image aspect ratio.  Available Values: - &#x60;SQUARE&#x60;: Square images. Legacy value &#x60;s&#x60; is also accepted. - &#x60;TALL&#x60;: Tall images. Legacy value &#x60;t&#x60; is also accepted. - &#x60;WIDE&#x60;: Wide images. Legacy value &#x60;w&#x60; is also accepted. - &#x60;PANORAMIC&#x60;: Panoramic images. Legacy value &#x60;xw&#x60; is also accepted. (optional)
+     * @param imgsz Filter by image size.  Available Values: - &#x60;LARGE&#x60;: Large images. Legacy value &#x60;l&#x60; is also accepted. - &#x60;MEDIUM&#x60;: Medium images. Legacy value &#x60;m&#x60; is also accepted. - &#x60;ICON&#x60;: Icon-sized images. Legacy value &#x60;i&#x60; is also accepted. (optional)
      * @param imageColor Filter images by a dominant color (e.g., &#39;red&#39;, &#39;blue&#39;, &#39;bw&#39; for black and white, &#39;trans&#39; for transparent). (optional)
      * @param imageType Filter by image type. Supported values: &#39;face&#39;, &#39;photo&#39;, &#39;clipart&#39;, &#39;lineart&#39;, &#39;animated&#39;. (optional)
-     * @param licenses Filter by usage rights and licenses. Supported values: &#39;f&#39; (Free to use), &#39;fc&#39; (Commercial use), &#39;cl&#39; (Creative Commons). (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param licenses Filter by usage rights and licenses.  Available Values: - &#x60;FREE_TO_USE&#x60;: Free to use. Legacy value &#x60;f&#x60; is also accepted. - &#x60;COMMERCIAL_USE&#x60;: Commercial use. Legacy value &#x60;fc&#x60; is also accepted. - &#x60;CREATIVE_COMMONS&#x60;: Creative Commons. Legacy value &#x60;cl&#x60; is also accepted. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -1517,20 +1517,20 @@ public class GoogleApi {
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
-     * @param periodUnit Time unit for &#39;recent&#39; image results. Supported values: &#39;s&#39; (Second), &#39;n&#39; (Minute), &#39;h&#39; (Hour), &#39;d&#39; (Day), &#39;w&#39; (Week), &#39;m&#39; (Month), &#39;y&#39; (Year). (optional)
+     * @param periodUnit Time unit for recent image results.  Available Values: - &#x60;SECOND&#x60;: Second. Legacy value &#x60;s&#x60; is also accepted. - &#x60;MINUTE&#x60;: Minute. Legacy value &#x60;n&#x60; is also accepted. - &#x60;HOUR&#x60;: Hour. Legacy value &#x60;h&#x60; is also accepted. - &#x60;DAY&#x60;: Day. Legacy value &#x60;d&#x60; is also accepted. - &#x60;WEEK&#x60;: Week. Legacy value &#x60;w&#x60; is also accepted. - &#x60;MONTH&#x60;: Month. Legacy value &#x60;m&#x60; is also accepted. - &#x60;YEAR&#x60;: Year. Legacy value &#x60;y&#x60; is also accepted. (optional)
      * @param periodValue Time duration value used with &#39;period_unit&#39; (e.g., 15 for 15 days). Default: 1. (optional)
      * @param startDate Start date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241201&#39;). (optional)
      * @param endDate End date for restricting images to a time range. Format: &#39;YYYYMMDD&#39; (e.g., &#39;20241231&#39;). (optional)
      * @param chips Additional suggested search terms (chips) to filter images. Values are obtained from previous responses. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param imgar Filter by image aspect ratio. Supported values: &#39;s&#39; (Square), &#39;t&#39; (Tall), &#39;w&#39; (Wide), &#39;xw&#39; (Panoramic). (optional)
-     * @param imgsz Filter by image size. Supported values: &#39;l&#39; (Large), &#39;m&#39; (Medium), &#39;i&#39; (Icon), and specific resolutions like &#39;4mp&#39;, &#39;10mp&#39;. (optional)
+     * @param imgar Filter by image aspect ratio.  Available Values: - &#x60;SQUARE&#x60;: Square images. Legacy value &#x60;s&#x60; is also accepted. - &#x60;TALL&#x60;: Tall images. Legacy value &#x60;t&#x60; is also accepted. - &#x60;WIDE&#x60;: Wide images. Legacy value &#x60;w&#x60; is also accepted. - &#x60;PANORAMIC&#x60;: Panoramic images. Legacy value &#x60;xw&#x60; is also accepted. (optional)
+     * @param imgsz Filter by image size.  Available Values: - &#x60;LARGE&#x60;: Large images. Legacy value &#x60;l&#x60; is also accepted. - &#x60;MEDIUM&#x60;: Medium images. Legacy value &#x60;m&#x60; is also accepted. - &#x60;ICON&#x60;: Icon-sized images. Legacy value &#x60;i&#x60; is also accepted. (optional)
      * @param imageColor Filter images by a dominant color (e.g., &#39;red&#39;, &#39;blue&#39;, &#39;bw&#39; for black and white, &#39;trans&#39; for transparent). (optional)
      * @param imageType Filter by image type. Supported values: &#39;face&#39;, &#39;photo&#39;, &#39;clipart&#39;, &#39;lineart&#39;, &#39;animated&#39;. (optional)
-     * @param licenses Filter by usage rights and licenses. Supported values: &#39;f&#39; (Free to use), &#39;fc&#39; (Commercial use), &#39;cl&#39; (Creative Commons). (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param licenses Filter by usage rights and licenses.  Available Values: - &#x60;FREE_TO_USE&#x60;: Free to use. Legacy value &#x60;f&#x60; is also accepted. - &#x60;COMMERCIAL_USE&#x60;: Commercial use. Legacy value &#x60;fc&#x60; is also accepted. - &#x60;CREATIVE_COMMONS&#x60;: Creative Commons. Legacy value &#x60;cl&#x60; is also accepted. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -2821,7 +2821,7 @@ public class GoogleApi {
      * Build call for mapsReviews
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param sortBy Sorting order for reviews. Supported values: &#39;qualityScore&#39; (Relevance), &#39;newestFirst&#39; (Newest), &#39;ratingHigh&#39; (Highest rating), &#39;ratingLow&#39; (Lowest rating). (optional)
+     * @param sortBy Sorting order for reviews.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;qualityScore&#x60; is also accepted. - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;newestFirst&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating first. Legacy value &#x60;ratingHigh&#x60; is also accepted. - &#x60;LOWEST_RATING&#x60;: Lowest rating first. Legacy value &#x60;ratingLow&#x60; is also accepted. (optional)
      * @param topicId Filter reviews by a specific topic ID. Topic IDs are obtained from previous Maps Reviews API responses. (optional)
      * @param nextPageToken Token for retrieving the next page of reviews. (optional)
      * @param results The maximum number of reviews to return per page (range: 1-20). (optional)
@@ -2923,7 +2923,7 @@ public class GoogleApi {
      * Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param sortBy Sorting order for reviews. Supported values: &#39;qualityScore&#39; (Relevance), &#39;newestFirst&#39; (Newest), &#39;ratingHigh&#39; (Highest rating), &#39;ratingLow&#39; (Lowest rating). (optional)
+     * @param sortBy Sorting order for reviews.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;qualityScore&#x60; is also accepted. - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;newestFirst&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating first. Legacy value &#x60;ratingHigh&#x60; is also accepted. - &#x60;LOWEST_RATING&#x60;: Lowest rating first. Legacy value &#x60;ratingLow&#x60; is also accepted. (optional)
      * @param topicId Filter reviews by a specific topic ID. Topic IDs are obtained from previous Maps Reviews API responses. (optional)
      * @param nextPageToken Token for retrieving the next page of reviews. (optional)
      * @param results The maximum number of reviews to return per page (range: 1-20). (optional)
@@ -2950,7 +2950,7 @@ public class GoogleApi {
      * Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param sortBy Sorting order for reviews. Supported values: &#39;qualityScore&#39; (Relevance), &#39;newestFirst&#39; (Newest), &#39;ratingHigh&#39; (Highest rating), &#39;ratingLow&#39; (Lowest rating). (optional)
+     * @param sortBy Sorting order for reviews.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;qualityScore&#x60; is also accepted. - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;newestFirst&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating first. Legacy value &#x60;ratingHigh&#x60; is also accepted. - &#x60;LOWEST_RATING&#x60;: Lowest rating first. Legacy value &#x60;ratingLow&#x60; is also accepted. (optional)
      * @param topicId Filter reviews by a specific topic ID. Topic IDs are obtained from previous Maps Reviews API responses. (optional)
      * @param nextPageToken Token for retrieving the next page of reviews. (optional)
      * @param results The maximum number of reviews to return per page (range: 1-20). (optional)
@@ -2978,7 +2978,7 @@ public class GoogleApi {
      * Get Google maps Reviews data, including ratings and reviewer metadata, for reputation analysis and review monitoring.
      * @param dataId The unique Google Maps location ID (feature ID). You can get this from our Google Maps Search API. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param sortBy Sorting order for reviews. Supported values: &#39;qualityScore&#39; (Relevance), &#39;newestFirst&#39; (Newest), &#39;ratingHigh&#39; (Highest rating), &#39;ratingLow&#39; (Lowest rating). (optional)
+     * @param sortBy Sorting order for reviews.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;qualityScore&#x60; is also accepted. - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;newestFirst&#x60; is also accepted. - &#x60;HIGHEST_RATING&#x60;: Highest rating first. Legacy value &#x60;ratingHigh&#x60; is also accepted. - &#x60;LOWEST_RATING&#x60;: Lowest rating first. Legacy value &#x60;ratingLow&#x60; is also accepted. (optional)
      * @param topicId Filter reviews by a specific topic ID. Topic IDs are obtained from previous Maps Reviews API responses. (optional)
      * @param nextPageToken Token for retrieving the next page of reviews. (optional)
      * @param results The maximum number of reviews to return per page (range: 1-20). (optional)
@@ -3359,7 +3359,7 @@ public class GoogleApi {
      * @param topicToken The Google News topic token to retrieve results for a specific category (e.g., &#39;World&#39;, &#39;Technology&#39;). Obtained from previous responses. (optional)
      * @param publicationToken The Google News publication token to fetch results from a specific source (e.g., &#39;CNN&#39;, &#39;BBC&#39;). Obtained from previous responses. (optional)
      * @param sectionToken The Google News section token to access a specific subsection within a topic or publication. (optional)
-     * @param so Sorting order for news results. Supported values: &#39;0&#39; (Relevance, default), &#39;1&#39; (Date). Only works with &#39;story_token&#39;. (optional)
+     * @param so Sorting order for news results. Only works with &#39;story_token&#39;.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;0&#x60; is also accepted. - &#x60;DATE&#x60;: Date. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -3466,7 +3466,7 @@ public class GoogleApi {
      * @param topicToken The Google News topic token to retrieve results for a specific category (e.g., &#39;World&#39;, &#39;Technology&#39;). Obtained from previous responses. (optional)
      * @param publicationToken The Google News publication token to fetch results from a specific source (e.g., &#39;CNN&#39;, &#39;BBC&#39;). Obtained from previous responses. (optional)
      * @param sectionToken The Google News section token to access a specific subsection within a topic or publication. (optional)
-     * @param so Sorting order for news results. Supported values: &#39;0&#39; (Relevance, default), &#39;1&#39; (Date). Only works with &#39;story_token&#39;. (optional)
+     * @param so Sorting order for news results. Only works with &#39;story_token&#39;.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;0&#x60; is also accepted. - &#x60;DATE&#x60;: Date. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -3494,7 +3494,7 @@ public class GoogleApi {
      * @param topicToken The Google News topic token to retrieve results for a specific category (e.g., &#39;World&#39;, &#39;Technology&#39;). Obtained from previous responses. (optional)
      * @param publicationToken The Google News publication token to fetch results from a specific source (e.g., &#39;CNN&#39;, &#39;BBC&#39;). Obtained from previous responses. (optional)
      * @param sectionToken The Google News section token to access a specific subsection within a topic or publication. (optional)
-     * @param so Sorting order for news results. Supported values: &#39;0&#39; (Relevance, default), &#39;1&#39; (Date). Only works with &#39;story_token&#39;. (optional)
+     * @param so Sorting order for news results. Only works with &#39;story_token&#39;.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;0&#x60; is also accepted. - &#x60;DATE&#x60;: Date. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -3523,7 +3523,7 @@ public class GoogleApi {
      * @param topicToken The Google News topic token to retrieve results for a specific category (e.g., &#39;World&#39;, &#39;Technology&#39;). Obtained from previous responses. (optional)
      * @param publicationToken The Google News publication token to fetch results from a specific source (e.g., &#39;CNN&#39;, &#39;BBC&#39;). Obtained from previous responses. (optional)
      * @param sectionToken The Google News section token to access a specific subsection within a topic or publication. (optional)
-     * @param so Sorting order for news results. Supported values: &#39;0&#39; (Relevance, default), &#39;1&#39; (Date). Only works with &#39;story_token&#39;. (optional)
+     * @param so Sorting order for news results. Only works with &#39;story_token&#39;.  Available Values: - &#x60;RELEVANCE&#x60;: Relevance. Legacy value &#x60;0&#x60; is also accepted. - &#x60;DATE&#x60;: Date. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -3712,9 +3712,9 @@ public class GoogleApi {
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param num The number of results to return per page (range: 1-100). (optional)
-     * @param sort Sorting order for patent results. Supported values: &#39;new&#39; (Newest), &#39;old&#39; (Oldest). (optional)
+     * @param sort Sorting order for patent results.  Available Values: - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;new&#x60; is also accepted. - &#x60;OLDEST&#x60;: Oldest first. Legacy value &#x60;old&#x60; is also accepted. (optional)
      * @param clustered If set to true, results will be grouped by classification. (optional)
-     * @param dups Deduplication method. Supported values: &#39;language&#39; (by Publication). (optional)
+     * @param dups Deduplication method.  Available Values: - &#x60;LANGUAGE&#x60;: Deduplicate by publication language. Legacy value &#x60;language&#x60; is also accepted. (optional)
      * @param patents Whether to include Google Patents results. (optional)
      * @param scholar Whether to include Google Scholar results. (optional)
      * @param before Latest date to include. Format: &#39;type:YYYYMMDD&#39; (e.g., &#39;publication:20230101&#39;). (optional)
@@ -3723,9 +3723,9 @@ public class GoogleApi {
      * @param assignee Filter by patent assignee(s). Multiple values can be comma-separated. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param status Filter by patent status. Supported values: &#39;GRANT&#39;, &#39;APPLICATION&#39;. (optional)
-     * @param type Filter by patent type. Supported values: &#39;PATENT&#39;, &#39;DESIGN&#39;. (optional)
-     * @param litigation Filter by litigation status. Supported values: &#39;YES&#39;, &#39;NO&#39;. (optional)
+     * @param status Filter by patent status.  Available Values: - &#x60;GRANT&#x60;: Granted patents. - &#x60;APPLICATION&#x60;: Patent applications. (optional)
+     * @param type Filter by patent type.  Available Values: - &#x60;PATENT&#x60;: Patent. - &#x60;DESIGN&#x60;: Design patent. (optional)
+     * @param litigation Filter by litigation status.  Available Values: - &#x60;YES&#x60;: Patents with litigation. - &#x60;NO&#x60;: Patents without litigation. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -3869,9 +3869,9 @@ public class GoogleApi {
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param num The number of results to return per page (range: 1-100). (optional)
-     * @param sort Sorting order for patent results. Supported values: &#39;new&#39; (Newest), &#39;old&#39; (Oldest). (optional)
+     * @param sort Sorting order for patent results.  Available Values: - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;new&#x60; is also accepted. - &#x60;OLDEST&#x60;: Oldest first. Legacy value &#x60;old&#x60; is also accepted. (optional)
      * @param clustered If set to true, results will be grouped by classification. (optional)
-     * @param dups Deduplication method. Supported values: &#39;language&#39; (by Publication). (optional)
+     * @param dups Deduplication method.  Available Values: - &#x60;LANGUAGE&#x60;: Deduplicate by publication language. Legacy value &#x60;language&#x60; is also accepted. (optional)
      * @param patents Whether to include Google Patents results. (optional)
      * @param scholar Whether to include Google Scholar results. (optional)
      * @param before Latest date to include. Format: &#39;type:YYYYMMDD&#39; (e.g., &#39;publication:20230101&#39;). (optional)
@@ -3880,9 +3880,9 @@ public class GoogleApi {
      * @param assignee Filter by patent assignee(s). Multiple values can be comma-separated. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param status Filter by patent status. Supported values: &#39;GRANT&#39;, &#39;APPLICATION&#39;. (optional)
-     * @param type Filter by patent type. Supported values: &#39;PATENT&#39;, &#39;DESIGN&#39;. (optional)
-     * @param litigation Filter by litigation status. Supported values: &#39;YES&#39;, &#39;NO&#39;. (optional)
+     * @param status Filter by patent status.  Available Values: - &#x60;GRANT&#x60;: Granted patents. - &#x60;APPLICATION&#x60;: Patent applications. (optional)
+     * @param type Filter by patent type.  Available Values: - &#x60;PATENT&#x60;: Patent. - &#x60;DESIGN&#x60;: Design patent. (optional)
+     * @param litigation Filter by litigation status.  Available Values: - &#x60;YES&#x60;: Patents with litigation. - &#x60;NO&#x60;: Patents without litigation. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -3907,9 +3907,9 @@ public class GoogleApi {
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param num The number of results to return per page (range: 1-100). (optional)
-     * @param sort Sorting order for patent results. Supported values: &#39;new&#39; (Newest), &#39;old&#39; (Oldest). (optional)
+     * @param sort Sorting order for patent results.  Available Values: - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;new&#x60; is also accepted. - &#x60;OLDEST&#x60;: Oldest first. Legacy value &#x60;old&#x60; is also accepted. (optional)
      * @param clustered If set to true, results will be grouped by classification. (optional)
-     * @param dups Deduplication method. Supported values: &#39;language&#39; (by Publication). (optional)
+     * @param dups Deduplication method.  Available Values: - &#x60;LANGUAGE&#x60;: Deduplicate by publication language. Legacy value &#x60;language&#x60; is also accepted. (optional)
      * @param patents Whether to include Google Patents results. (optional)
      * @param scholar Whether to include Google Scholar results. (optional)
      * @param before Latest date to include. Format: &#39;type:YYYYMMDD&#39; (e.g., &#39;publication:20230101&#39;). (optional)
@@ -3918,9 +3918,9 @@ public class GoogleApi {
      * @param assignee Filter by patent assignee(s). Multiple values can be comma-separated. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param status Filter by patent status. Supported values: &#39;GRANT&#39;, &#39;APPLICATION&#39;. (optional)
-     * @param type Filter by patent type. Supported values: &#39;PATENT&#39;, &#39;DESIGN&#39;. (optional)
-     * @param litigation Filter by litigation status. Supported values: &#39;YES&#39;, &#39;NO&#39;. (optional)
+     * @param status Filter by patent status.  Available Values: - &#x60;GRANT&#x60;: Granted patents. - &#x60;APPLICATION&#x60;: Patent applications. (optional)
+     * @param type Filter by patent type.  Available Values: - &#x60;PATENT&#x60;: Patent. - &#x60;DESIGN&#x60;: Design patent. (optional)
+     * @param litigation Filter by litigation status.  Available Values: - &#x60;YES&#x60;: Patents with litigation. - &#x60;NO&#x60;: Patents without litigation. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -3946,9 +3946,9 @@ public class GoogleApi {
      * @param query The search query for patents (e.g., &#39;autonomous vehicles&#39;, &#39;blockchain security&#39;). (required)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param num The number of results to return per page (range: 1-100). (optional)
-     * @param sort Sorting order for patent results. Supported values: &#39;new&#39; (Newest), &#39;old&#39; (Oldest). (optional)
+     * @param sort Sorting order for patent results.  Available Values: - &#x60;NEWEST&#x60;: Newest first. Legacy value &#x60;new&#x60; is also accepted. - &#x60;OLDEST&#x60;: Oldest first. Legacy value &#x60;old&#x60; is also accepted. (optional)
      * @param clustered If set to true, results will be grouped by classification. (optional)
-     * @param dups Deduplication method. Supported values: &#39;language&#39; (by Publication). (optional)
+     * @param dups Deduplication method.  Available Values: - &#x60;LANGUAGE&#x60;: Deduplicate by publication language. Legacy value &#x60;language&#x60; is also accepted. (optional)
      * @param patents Whether to include Google Patents results. (optional)
      * @param scholar Whether to include Google Scholar results. (optional)
      * @param before Latest date to include. Format: &#39;type:YYYYMMDD&#39; (e.g., &#39;publication:20230101&#39;). (optional)
@@ -3957,9 +3957,9 @@ public class GoogleApi {
      * @param assignee Filter by patent assignee(s). Multiple values can be comma-separated. (optional)
      * @param country Set the target country code (e.g., &#39;us&#39;, &#39;uk&#39;) to localize results. See &lt;a href&#x3D;\&quot;/reference/google-countries\&quot;&gt;Google Countries&lt;/a&gt;. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param status Filter by patent status. Supported values: &#39;GRANT&#39;, &#39;APPLICATION&#39;. (optional)
-     * @param type Filter by patent type. Supported values: &#39;PATENT&#39;, &#39;DESIGN&#39;. (optional)
-     * @param litigation Filter by litigation status. Supported values: &#39;YES&#39;, &#39;NO&#39;. (optional)
+     * @param status Filter by patent status.  Available Values: - &#x60;GRANT&#x60;: Granted patents. - &#x60;APPLICATION&#x60;: Patent applications. (optional)
+     * @param type Filter by patent type.  Available Values: - &#x60;PATENT&#x60;: Patent. - &#x60;DESIGN&#x60;: Design patent. (optional)
+     * @param litigation Filter by litigation status.  Available Values: - &#x60;YES&#x60;: Patents with litigation. - &#x60;NO&#x60;: Patents without litigation. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -4132,8 +4132,8 @@ public class GoogleApi {
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param viewOp Specific view operation for the author profile. Use &#39;list_colleagues&#39; to see co-authors or &#39;view_citation&#39; for article details. (optional)
-     * @param sort Sorting criteria for the author&#39;s publications. Supported values: &#39;title&#39;, &#39;pubdate&#39;. (optional)
+     * @param viewOp Specific view operation for the author profile.  Available Values: - &#x60;LIST_COLLEAGUES&#x60;: List co-authors. Legacy value &#x60;list_colleagues&#x60; is also accepted. - &#x60;VIEW_CITATION&#x60;: View citation details. Legacy value &#x60;view_citation&#x60; is also accepted. (optional)
+     * @param sort Sorting criteria for the author&#39;s publications.  Available Values: - &#x60;TITLE&#x60;: Sort by title. Legacy value &#x60;title&#x60; is also accepted. - &#x60;PUBLICATION_DATE&#x60;: Sort by publication date. Legacy value &#x60;pubdate&#x60; is also accepted. (optional)
      * @param citationId The citation ID to view details for (required when &#39;view_op&#39; is &#39;view_citation&#39;). (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
@@ -4234,8 +4234,8 @@ public class GoogleApi {
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param viewOp Specific view operation for the author profile. Use &#39;list_colleagues&#39; to see co-authors or &#39;view_citation&#39; for article details. (optional)
-     * @param sort Sorting criteria for the author&#39;s publications. Supported values: &#39;title&#39;, &#39;pubdate&#39;. (optional)
+     * @param viewOp Specific view operation for the author profile.  Available Values: - &#x60;LIST_COLLEAGUES&#x60;: List co-authors. Legacy value &#x60;list_colleagues&#x60; is also accepted. - &#x60;VIEW_CITATION&#x60;: View citation details. Legacy value &#x60;view_citation&#x60; is also accepted. (optional)
+     * @param sort Sorting criteria for the author&#39;s publications.  Available Values: - &#x60;TITLE&#x60;: Sort by title. Legacy value &#x60;title&#x60; is also accepted. - &#x60;PUBLICATION_DATE&#x60;: Sort by publication date. Legacy value &#x60;pubdate&#x60; is also accepted. (optional)
      * @param citationId The citation ID to view details for (required when &#39;view_op&#39; is &#39;view_citation&#39;). (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -4261,8 +4261,8 @@ public class GoogleApi {
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param viewOp Specific view operation for the author profile. Use &#39;list_colleagues&#39; to see co-authors or &#39;view_citation&#39; for article details. (optional)
-     * @param sort Sorting criteria for the author&#39;s publications. Supported values: &#39;title&#39;, &#39;pubdate&#39;. (optional)
+     * @param viewOp Specific view operation for the author profile.  Available Values: - &#x60;LIST_COLLEAGUES&#x60;: List co-authors. Legacy value &#x60;list_colleagues&#x60; is also accepted. - &#x60;VIEW_CITATION&#x60;: View citation details. Legacy value &#x60;view_citation&#x60; is also accepted. (optional)
+     * @param sort Sorting criteria for the author&#39;s publications.  Available Values: - &#x60;TITLE&#x60;: Sort by title. Legacy value &#x60;title&#x60; is also accepted. - &#x60;PUBLICATION_DATE&#x60;: Sort by publication date. Legacy value &#x60;pubdate&#x60; is also accepted. (optional)
      * @param citationId The citation ID to view details for (required when &#39;view_op&#39; is &#39;view_citation&#39;). (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -4289,8 +4289,8 @@ public class GoogleApi {
      * @param authorId The unique Google Scholar ID of the researcher/author (e.g., &#39;LSs6DR8AAAAJ&#39;). (required)
      * @param results The number of results to return per page. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
-     * @param viewOp Specific view operation for the author profile. Use &#39;list_colleagues&#39; to see co-authors or &#39;view_citation&#39; for article details. (optional)
-     * @param sort Sorting criteria for the author&#39;s publications. Supported values: &#39;title&#39;, &#39;pubdate&#39;. (optional)
+     * @param viewOp Specific view operation for the author profile.  Available Values: - &#x60;LIST_COLLEAGUES&#x60;: List co-authors. Legacy value &#x60;list_colleagues&#x60; is also accepted. - &#x60;VIEW_CITATION&#x60;: View citation details. Legacy value &#x60;view_citation&#x60; is also accepted. (optional)
+     * @param sort Sorting criteria for the author&#39;s publications.  Available Values: - &#x60;TITLE&#x60;: Sort by title. Legacy value &#x60;title&#x60; is also accepted. - &#x60;PUBLICATION_DATE&#x60;: Sort by publication date. Legacy value &#x60;pubdate&#x60; is also accepted. (optional)
      * @param citationId The citation ID to view details for (required when &#39;view_op&#39; is &#39;view_citation&#39;). (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
@@ -4469,22 +4469,22 @@ public class GoogleApi {
     }
     /**
      * Build call for scholarSearch
-     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
+     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. Required unless cites or cluster is provided, and cannot be combined with cluster. (optional)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
-     * @param cites Return articles that cite the article with the specified ID. (optional)
+     * @param cites Return articles that cite the article with the specified ID. Can be used alone or with query, but cannot be combined with cluster. (optional)
      * @param asYlo Minimum publication year filter (e.g., &#39;2020&#39;). (optional)
      * @param asYhi Maximum publication year filter (e.g., &#39;2024&#39;). (optional)
-     * @param scisbd Controls whether to return only abstract results (1) or all results (0). (optional)
-     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. (optional)
+     * @param scisbd Controls whether to return only abstract results or all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ABSTRACT_RESULTS_ONLY&#x60;: Return abstract results only. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. Cannot be combined with query or cites. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param results The number of search results to return per page. (optional)
      * @param asSdt Advanced filter for specific document types or legal jurisdictions. E.g., &#39;7&#39; to include patents. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
-     * @param asVis Controls whether citations are included in the results: 1 &#x3D; exclude, 0 (default) &#x3D; include. (optional)
-     * @param asRr Controls whether to show only review articles (topic overviews or discussions of the searched works/authors). Set to 1 to enable the filter, or 0 (default) to return all results. (optional)
+     * @param asVis Controls whether citations are included in the results.  Available Values: - &#x60;INCLUDE_CITATIONS&#x60;: Include citations in the results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CITATIONS&#x60;: Exclude citations from the results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param asRr Controls whether to show only review articles or return all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;REVIEW_ARTICLES_ONLY&#x60;: Return review articles only. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -4609,34 +4609,29 @@ public class GoogleApi {
 
     @SuppressWarnings("rawtypes")
     private okhttp3.Call scholarSearchValidateBeforeCall(String query, Boolean html, String cites, String asYlo, String asYhi, String scisbd, String cluster, String language, String lr, Integer page, Integer results, String asSdt, String safe, String filter, String asVis, String asRr, final ApiCallback _callback) throws ApiException {
-        // verify the required parameter 'query' is set
-        if (query == null) {
-            throw new ApiException("Missing the required parameter 'query' when calling scholarSearch(Async)");
-        }
-
         return scholarSearchCall(query, html, cites, asYlo, asYhi, scisbd, cluster, language, lr, page, results, asSdt, safe, filter, asVis, asRr, _callback);
 
     }
 
     /**
      * Search
-     * Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.
-     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
+     * Search Google Scholar papers, patents, legal documents, citations, and article versions for literature review and academic monitoring. Provide query, cites, or cluster; cluster cannot be combined with query or cites.
+     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. Required unless cites or cluster is provided, and cannot be combined with cluster. (optional)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
-     * @param cites Return articles that cite the article with the specified ID. (optional)
+     * @param cites Return articles that cite the article with the specified ID. Can be used alone or with query, but cannot be combined with cluster. (optional)
      * @param asYlo Minimum publication year filter (e.g., &#39;2020&#39;). (optional)
      * @param asYhi Maximum publication year filter (e.g., &#39;2024&#39;). (optional)
-     * @param scisbd Controls whether to return only abstract results (1) or all results (0). (optional)
-     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. (optional)
+     * @param scisbd Controls whether to return only abstract results or all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ABSTRACT_RESULTS_ONLY&#x60;: Return abstract results only. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. Cannot be combined with query or cites. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param results The number of search results to return per page. (optional)
      * @param asSdt Advanced filter for specific document types or legal jurisdictions. E.g., &#39;7&#39; to include patents. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
-     * @param asVis Controls whether citations are included in the results: 1 &#x3D; exclude, 0 (default) &#x3D; include. (optional)
-     * @param asRr Controls whether to show only review articles (topic overviews or discussions of the searched works/authors). Set to 1 to enable the filter, or 0 (default) to return all results. (optional)
+     * @param asVis Controls whether citations are included in the results.  Available Values: - &#x60;INCLUDE_CITATIONS&#x60;: Include citations in the results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CITATIONS&#x60;: Exclude citations from the results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param asRr Controls whether to show only review articles or return all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;REVIEW_ARTICLES_ONLY&#x60;: Return review articles only. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -4657,23 +4652,23 @@ public class GoogleApi {
 
     /**
      * Search
-     * Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.
-     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
+     * Search Google Scholar papers, patents, legal documents, citations, and article versions for literature review and academic monitoring. Provide query, cites, or cluster; cluster cannot be combined with query or cites.
+     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. Required unless cites or cluster is provided, and cannot be combined with cluster. (optional)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
-     * @param cites Return articles that cite the article with the specified ID. (optional)
+     * @param cites Return articles that cite the article with the specified ID. Can be used alone or with query, but cannot be combined with cluster. (optional)
      * @param asYlo Minimum publication year filter (e.g., &#39;2020&#39;). (optional)
      * @param asYhi Maximum publication year filter (e.g., &#39;2024&#39;). (optional)
-     * @param scisbd Controls whether to return only abstract results (1) or all results (0). (optional)
-     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. (optional)
+     * @param scisbd Controls whether to return only abstract results or all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ABSTRACT_RESULTS_ONLY&#x60;: Return abstract results only. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. Cannot be combined with query or cites. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param results The number of search results to return per page. (optional)
      * @param asSdt Advanced filter for specific document types or legal jurisdictions. E.g., &#39;7&#39; to include patents. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
-     * @param asVis Controls whether citations are included in the results: 1 &#x3D; exclude, 0 (default) &#x3D; include. (optional)
-     * @param asRr Controls whether to show only review articles (topic overviews or discussions of the searched works/authors). Set to 1 to enable the filter, or 0 (default) to return all results. (optional)
+     * @param asVis Controls whether citations are included in the results.  Available Values: - &#x60;INCLUDE_CITATIONS&#x60;: Include citations in the results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CITATIONS&#x60;: Exclude citations from the results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param asRr Controls whether to show only review articles or return all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;REVIEW_ARTICLES_ONLY&#x60;: Return review articles only. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -4695,23 +4690,23 @@ public class GoogleApi {
 
     /**
      * Search (asynchronously)
-     * Get Google scholar Search data, including papers, patents, and legal docs, citation and year filters, and versions and cited-by links, for literature review and academic result monitoring.
-     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. (required)
+     * Search Google Scholar papers, patents, legal documents, citations, and article versions for literature review and academic monitoring. Provide query, cites, or cluster; cluster cannot be combined with query or cites.
+     * @param query The academic search query (e.g., &#39;machine learning&#39;, &#39;CRISPR gene editing&#39;). Supports advanced operators like &#39;author:&#39;. Required unless cites or cluster is provided, and cannot be combined with cluster. (optional)
      * @param html Set to true to return the raw HTML of the Google Scholar search page. (optional)
-     * @param cites Return articles that cite the article with the specified ID. (optional)
+     * @param cites Return articles that cite the article with the specified ID. Can be used alone or with query, but cannot be combined with cluster. (optional)
      * @param asYlo Minimum publication year filter (e.g., &#39;2020&#39;). (optional)
      * @param asYhi Maximum publication year filter (e.g., &#39;2024&#39;). (optional)
-     * @param scisbd Controls whether to return only abstract results (1) or all results (0). (optional)
-     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. (optional)
+     * @param scisbd Controls whether to return only abstract results or all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ABSTRACT_RESULTS_ONLY&#x60;: Return abstract results only. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param cluster The unique ID of an article cluster to retrieve all versions of a specific work. Cannot be combined with query or cites. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param page The results page number. Use 0 for the first page, 1 for the second, and so on. (optional)
      * @param results The number of search results to return per page. (optional)
      * @param asSdt Advanced filter for specific document types or legal jurisdictions. E.g., &#39;7&#39; to include patents. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
      * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
-     * @param asVis Controls whether citations are included in the results: 1 &#x3D; exclude, 0 (default) &#x3D; include. (optional)
-     * @param asRr Controls whether to show only review articles (topic overviews or discussions of the searched works/authors). Set to 1 to enable the filter, or 0 (default) to return all results. (optional)
+     * @param asVis Controls whether citations are included in the results.  Available Values: - &#x60;INCLUDE_CITATIONS&#x60;: Include citations in the results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CITATIONS&#x60;: Exclude citations from the results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param asRr Controls whether to show only review articles or return all results.  Available Values: - &#x60;ALL_RESULTS&#x60;: Return all results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;REVIEW_ARTICLES_ONLY&#x60;: Return review articles only. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -4752,9 +4747,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -4924,9 +4919,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -4965,9 +4960,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5007,9 +5002,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -5050,9 +5045,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -5222,9 +5217,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5263,9 +5258,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5305,9 +5300,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -5348,9 +5343,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -5520,9 +5515,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5561,9 +5556,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5603,9 +5598,9 @@ public class GoogleApi {
      * @param ibp Parameter (ibp) used to control certain Google UI expansions or rendering modes (commonly in local/business result views). This is an advanced technical parameter — if you’re not familiar with it, you can leave it empty. (optional)
      * @param uds Advanced filter token (uds) used for specific Google search sub-filters. This is an advanced technical parameter, usually provided by Google in filter options/results — if you’re not familiar with it, you can leave it empty. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
-     * @param filter Toggle &#39;Similar Results&#39; and &#39;Omitted Results&#39; filters. Set to &#39;1&#39; (default) to enable, &#39;0&#39; to disable. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
+     * @param filter Toggle similar-results and omitted-results filtering.  Available Values: - &#x60;DISABLED&#x60;: Disable similar and omitted results filtering. Legacy value &#x60;0&#x60; is also accepted. - &#x60;ENABLED&#x60;: Enable similar and omitted results filtering. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -5639,8 +5634,8 @@ public class GoogleApi {
      * @param shoprs A unique ID used to apply specific shopping filters. Usually obtained from previous response. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -5771,8 +5766,8 @@ public class GoogleApi {
      * @param shoprs A unique ID used to apply specific shopping filters. Usually obtained from previous response. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5804,8 +5799,8 @@ public class GoogleApi {
      * @param shoprs A unique ID used to apply specific shopping filters. Usually obtained from previous response. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -5838,8 +5833,8 @@ public class GoogleApi {
      * @param shoprs A unique ID used to apply specific shopping filters. Usually obtained from previous response. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -5872,8 +5867,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
      * @throws ApiException If fail to serialize the request body object
@@ -5999,8 +5994,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -6031,8 +6026,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      * @http.response.details
@@ -6064,8 +6059,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
@@ -6246,11 +6241,11 @@ public class GoogleApi {
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param geo The geographic location code to filter trends (e.g., &#39;US&#39;, &#39;GB&#39;). Omit for worldwide trends. See &lt;a href&#x3D;\&quot;/reference/google-trends-locations\&quot;&gt;Google Trends Locations&lt;/a&gt;. (optional)
-     * @param region Refines results for region charts. Supported values: &#39;COUNTRY&#39;, &#39;REGION&#39;, &#39;DMA&#39;, &#39;CITY&#39;. (optional)
-     * @param dataType The type of trend data to retrieve. Supported values: &#39;TIMESERIES&#39; (Interest over time), &#39;GEO_MAP&#39; (Breakdown by region). (optional)
+     * @param region Refines results for region charts.  Available Values: - &#x60;COUNTRY&#x60;: Country-level results. - &#x60;REGION&#x60;: Region-level results. - &#x60;DMA&#x60;: Designated market area results. - &#x60;CITY&#x60;: City-level results. (optional)
+     * @param dataType The type of trend data to retrieve.  Available Values: - &#x60;INTEREST_OVER_TIME&#x60;: Interest over time. Legacy value &#x60;TIMESERIES&#x60; is also accepted. - &#x60;REGION_BREAKDOWN&#x60;: Breakdown by region. Legacy value &#x60;GEO_MAP&#x60; is also accepted. (optional)
      * @param tz Time zone offset in minutes (e.g., &#39;420&#39; for PDT). Range: -1439 to 1439. (optional)
      * @param cat The search category code (e.g., &#39;0&#39; for all categories). (optional)
-     * @param gprop The Google property to filter trends. Supported values: &#39;images&#39;, &#39;news&#39;, &#39;froogle&#39; (Shopping), &#39;youtube&#39;. (optional)
+     * @param gprop The Google property to filter trends.  Available Values: - &#x60;IMAGES&#x60;: Google Images. Legacy value &#x60;images&#x60; is also accepted. - &#x60;NEWS&#x60;: Google News. Legacy value &#x60;news&#x60; is also accepted. - &#x60;SHOPPING&#x60;: Google Shopping. Legacy value &#x60;froogle&#x60; is also accepted. - &#x60;YOUTUBE&#x60;: YouTube. Legacy value &#x60;youtube&#x60; is also accepted. (optional)
      * @param date Date range filter for the search. Supports predefined values (now 1-H, now 4-H, now 1-d, now 7-d, today 1-m, today 3-m, today 12-m, today 5-y, all) and custom ranges: yyyy-mm-dd yyyy-mm-dd (e.g. 2021-10-15 2022-05-25) or hourly yyyy-mm-ddThh yyyy-mm-ddThh within 1 week (e.g. 2022-05-19T10 2022-05-24T22, based on tz). (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
@@ -6363,11 +6358,11 @@ public class GoogleApi {
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param geo The geographic location code to filter trends (e.g., &#39;US&#39;, &#39;GB&#39;). Omit for worldwide trends. See &lt;a href&#x3D;\&quot;/reference/google-trends-locations\&quot;&gt;Google Trends Locations&lt;/a&gt;. (optional)
-     * @param region Refines results for region charts. Supported values: &#39;COUNTRY&#39;, &#39;REGION&#39;, &#39;DMA&#39;, &#39;CITY&#39;. (optional)
-     * @param dataType The type of trend data to retrieve. Supported values: &#39;TIMESERIES&#39; (Interest over time), &#39;GEO_MAP&#39; (Breakdown by region). (optional)
+     * @param region Refines results for region charts.  Available Values: - &#x60;COUNTRY&#x60;: Country-level results. - &#x60;REGION&#x60;: Region-level results. - &#x60;DMA&#x60;: Designated market area results. - &#x60;CITY&#x60;: City-level results. (optional)
+     * @param dataType The type of trend data to retrieve.  Available Values: - &#x60;INTEREST_OVER_TIME&#x60;: Interest over time. Legacy value &#x60;TIMESERIES&#x60; is also accepted. - &#x60;REGION_BREAKDOWN&#x60;: Breakdown by region. Legacy value &#x60;GEO_MAP&#x60; is also accepted. (optional)
      * @param tz Time zone offset in minutes (e.g., &#39;420&#39; for PDT). Range: -1439 to 1439. (optional)
      * @param cat The search category code (e.g., &#39;0&#39; for all categories). (optional)
-     * @param gprop The Google property to filter trends. Supported values: &#39;images&#39;, &#39;news&#39;, &#39;froogle&#39; (Shopping), &#39;youtube&#39;. (optional)
+     * @param gprop The Google property to filter trends.  Available Values: - &#x60;IMAGES&#x60;: Google Images. Legacy value &#x60;images&#x60; is also accepted. - &#x60;NEWS&#x60;: Google News. Legacy value &#x60;news&#x60; is also accepted. - &#x60;SHOPPING&#x60;: Google Shopping. Legacy value &#x60;froogle&#x60; is also accepted. - &#x60;YOUTUBE&#x60;: YouTube. Legacy value &#x60;youtube&#x60; is also accepted. (optional)
      * @param date Date range filter for the search. Supports predefined values (now 1-H, now 4-H, now 1-d, now 7-d, today 1-m, today 3-m, today 12-m, today 5-y, all) and custom ranges: yyyy-mm-dd yyyy-mm-dd (e.g. 2021-10-15 2022-05-25) or hourly yyyy-mm-ddThh yyyy-mm-ddThh within 1 week (e.g. 2022-05-19T10 2022-05-24T22, based on tz). (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -6393,11 +6388,11 @@ public class GoogleApi {
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param geo The geographic location code to filter trends (e.g., &#39;US&#39;, &#39;GB&#39;). Omit for worldwide trends. See &lt;a href&#x3D;\&quot;/reference/google-trends-locations\&quot;&gt;Google Trends Locations&lt;/a&gt;. (optional)
-     * @param region Refines results for region charts. Supported values: &#39;COUNTRY&#39;, &#39;REGION&#39;, &#39;DMA&#39;, &#39;CITY&#39;. (optional)
-     * @param dataType The type of trend data to retrieve. Supported values: &#39;TIMESERIES&#39; (Interest over time), &#39;GEO_MAP&#39; (Breakdown by region). (optional)
+     * @param region Refines results for region charts.  Available Values: - &#x60;COUNTRY&#x60;: Country-level results. - &#x60;REGION&#x60;: Region-level results. - &#x60;DMA&#x60;: Designated market area results. - &#x60;CITY&#x60;: City-level results. (optional)
+     * @param dataType The type of trend data to retrieve.  Available Values: - &#x60;INTEREST_OVER_TIME&#x60;: Interest over time. Legacy value &#x60;TIMESERIES&#x60; is also accepted. - &#x60;REGION_BREAKDOWN&#x60;: Breakdown by region. Legacy value &#x60;GEO_MAP&#x60; is also accepted. (optional)
      * @param tz Time zone offset in minutes (e.g., &#39;420&#39; for PDT). Range: -1439 to 1439. (optional)
      * @param cat The search category code (e.g., &#39;0&#39; for all categories). (optional)
-     * @param gprop The Google property to filter trends. Supported values: &#39;images&#39;, &#39;news&#39;, &#39;froogle&#39; (Shopping), &#39;youtube&#39;. (optional)
+     * @param gprop The Google property to filter trends.  Available Values: - &#x60;IMAGES&#x60;: Google Images. Legacy value &#x60;images&#x60; is also accepted. - &#x60;NEWS&#x60;: Google News. Legacy value &#x60;news&#x60; is also accepted. - &#x60;SHOPPING&#x60;: Google Shopping. Legacy value &#x60;froogle&#x60; is also accepted. - &#x60;YOUTUBE&#x60;: YouTube. Legacy value &#x60;youtube&#x60; is also accepted. (optional)
      * @param date Date range filter for the search. Supports predefined values (now 1-H, now 4-H, now 1-d, now 7-d, today 1-m, today 3-m, today 12-m, today 5-y, all) and custom ranges: yyyy-mm-dd yyyy-mm-dd (e.g. 2021-10-15 2022-05-25) or hourly yyyy-mm-ddThh yyyy-mm-ddThh within 1 week (e.g. 2022-05-19T10 2022-05-24T22, based on tz). (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -6424,11 +6419,11 @@ public class GoogleApi {
      * @param query The search term or topic ID to analyze in Google Trends (e.g., &#39;iPhone&#39;, &#39;/m/027lnzs&#39; for Bitcoin). You can provide up to 5 terms separated by commas for comparisons. (required)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39; for English, &#39;fr&#39; for French). See &lt;a href&#x3D;\&quot;/reference/google-language\&quot;&gt;Google Language&lt;/a&gt;. (optional)
      * @param geo The geographic location code to filter trends (e.g., &#39;US&#39;, &#39;GB&#39;). Omit for worldwide trends. See &lt;a href&#x3D;\&quot;/reference/google-trends-locations\&quot;&gt;Google Trends Locations&lt;/a&gt;. (optional)
-     * @param region Refines results for region charts. Supported values: &#39;COUNTRY&#39;, &#39;REGION&#39;, &#39;DMA&#39;, &#39;CITY&#39;. (optional)
-     * @param dataType The type of trend data to retrieve. Supported values: &#39;TIMESERIES&#39; (Interest over time), &#39;GEO_MAP&#39; (Breakdown by region). (optional)
+     * @param region Refines results for region charts.  Available Values: - &#x60;COUNTRY&#x60;: Country-level results. - &#x60;REGION&#x60;: Region-level results. - &#x60;DMA&#x60;: Designated market area results. - &#x60;CITY&#x60;: City-level results. (optional)
+     * @param dataType The type of trend data to retrieve.  Available Values: - &#x60;INTEREST_OVER_TIME&#x60;: Interest over time. Legacy value &#x60;TIMESERIES&#x60; is also accepted. - &#x60;REGION_BREAKDOWN&#x60;: Breakdown by region. Legacy value &#x60;GEO_MAP&#x60; is also accepted. (optional)
      * @param tz Time zone offset in minutes (e.g., &#39;420&#39; for PDT). Range: -1439 to 1439. (optional)
      * @param cat The search category code (e.g., &#39;0&#39; for all categories). (optional)
-     * @param gprop The Google property to filter trends. Supported values: &#39;images&#39;, &#39;news&#39;, &#39;froogle&#39; (Shopping), &#39;youtube&#39;. (optional)
+     * @param gprop The Google property to filter trends.  Available Values: - &#x60;IMAGES&#x60;: Google Images. Legacy value &#x60;images&#x60; is also accepted. - &#x60;NEWS&#x60;: Google News. Legacy value &#x60;news&#x60; is also accepted. - &#x60;SHOPPING&#x60;: Google Shopping. Legacy value &#x60;froogle&#x60; is also accepted. - &#x60;YOUTUBE&#x60;: YouTube. Legacy value &#x60;youtube&#x60; is also accepted. (optional)
      * @param date Date range filter for the search. Supports predefined values (now 1-H, now 4-H, now 1-d, now 7-d, today 1-m, today 3-m, today 12-m, today 5-y, all) and custom ranges: yyyy-mm-dd yyyy-mm-dd (e.g. 2021-10-15 2022-05-25) or hourly yyyy-mm-ddThh yyyy-mm-ddThh within 1 week (e.g. 2022-05-19T10 2022-05-24T22, based on tz). (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
@@ -6454,7 +6449,7 @@ public class GoogleApi {
     /**
      * Build call for trendsTrendingNow
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
-     * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
+     * @param hours Time window for trending topics.  Available Values: - &#x60;PAST_4_HOURS&#x60;: Past 4 hours. Legacy value &#x60;4&#x60; is also accepted. - &#x60;PAST_24_HOURS&#x60;: Past 24 hours. Legacy value &#x60;24&#x60; is also accepted. - &#x60;PAST_48_HOURS&#x60;: Past 48 hours. Legacy value &#x60;48&#x60; is also accepted. - &#x60;PAST_7_DAYS&#x60;: Past 7 days. Legacy value &#x60;168&#x60; is also accepted. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39;). (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
@@ -6541,7 +6536,7 @@ public class GoogleApi {
      * Trending Now
      * Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
-     * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
+     * @param hours Time window for trending topics.  Available Values: - &#x60;PAST_4_HOURS&#x60;: Past 4 hours. Legacy value &#x60;4&#x60; is also accepted. - &#x60;PAST_24_HOURS&#x60;: Past 24 hours. Legacy value &#x60;24&#x60; is also accepted. - &#x60;PAST_48_HOURS&#x60;: Past 48 hours. Legacy value &#x60;48&#x60; is also accepted. - &#x60;PAST_7_DAYS&#x60;: Past 7 days. Legacy value &#x60;168&#x60; is also accepted. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39;). (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -6565,7 +6560,7 @@ public class GoogleApi {
      * Trending Now
      * Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
-     * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
+     * @param hours Time window for trending topics.  Available Values: - &#x60;PAST_4_HOURS&#x60;: Past 4 hours. Legacy value &#x60;4&#x60; is also accepted. - &#x60;PAST_24_HOURS&#x60;: Past 24 hours. Legacy value &#x60;24&#x60; is also accepted. - &#x60;PAST_48_HOURS&#x60;: Past 48 hours. Legacy value &#x60;48&#x60; is also accepted. - &#x60;PAST_7_DAYS&#x60;: Past 7 days. Legacy value &#x60;168&#x60; is also accepted. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39;). (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -6590,7 +6585,7 @@ public class GoogleApi {
      * Trending Now (asynchronously)
      * Get Google trends Trending Now data, including latest trending topics, region and time-window filters, and volume indicators, for breaking-trend monitoring and editorial planning.
      * @param geo The geographic location code to retrieve real-time trends for (e.g., &#39;US&#39; for United States). Default is &#39;US&#39;. (required)
-     * @param hours Time window for trending topics. Supported values: &#39;4&#39; (past 4 hours), &#39;24&#39; (past 24 hours), &#39;48&#39; (past 48 hours), &#39;168&#39; (past 7 days). (optional)
+     * @param hours Time window for trending topics.  Available Values: - &#x60;PAST_4_HOURS&#x60;: Past 4 hours. Legacy value &#x60;4&#x60; is also accepted. - &#x60;PAST_24_HOURS&#x60;: Past 24 hours. Legacy value &#x60;24&#x60; is also accepted. - &#x60;PAST_48_HOURS&#x60;: Past 48 hours. Legacy value &#x60;48&#x60; is also accepted. - &#x60;PAST_7_DAYS&#x60;: Past 7 days. Legacy value &#x60;168&#x60; is also accepted. (optional)
      * @param language Set the language for the results using its two-letter code (e.g., &#39;en&#39;). (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
@@ -6624,8 +6619,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param resultTime Filter results by publication time (e.g., &#39;qdr:d&#39; for past 24 hours, &#39;qdr:w&#39; for past week). (optional)
      * @param _callback Callback for upload/download progress
      * @return Call to execute
@@ -6756,8 +6751,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param resultTime Filter results by publication time (e.g., &#39;qdr:d&#39; for past 24 hours, &#39;qdr:w&#39; for past week). (optional)
      * @return JustSerpApiResponse
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -6789,8 +6784,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param resultTime Filter results by publication time (e.g., &#39;qdr:d&#39; for past 24 hours, &#39;qdr:w&#39; for past week). (optional)
      * @return ApiResponse&lt;JustSerpApiResponse&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
@@ -6823,8 +6818,8 @@ public class GoogleApi {
      * @param lr Restrict results to one or more languages using the &#39;lang_{language_code}&#39; format (e.g., &#39;lang_en&#39;). See &lt;a href&#x3D;\&quot;/reference/google-lr-language\&quot;&gt;Google LR Language&lt;/a&gt;. (optional)
      * @param uule Encoded location string (UULE) used to precisely localize Google search results. This is an advanced/technical parameter — if you’re not familiar with it, you can leave it empty and omit it. (optional)
      * @param tbs Advanced search filter parameter (tbs) used to apply Google result filters (e.g. time range). This is an advanced parameter — if you’re not familiar with it, you can leave it empty. (optional)
-     * @param safe SafeSearch filter setting. Set to &#39;active&#39; to filter adult content, or &#39;off&#39; to disable it. (optional)
-     * @param nfpr Controls Google&#39;s auto-correction. Set to &#39;1&#39; to exclude corrected results, &#39;0&#39; to include them. (optional)
+     * @param safe SafeSearch filter setting.  Available Values: - &#x60;ACTIVE&#x60;: Filter adult content. Legacy value &#x60;active&#x60; is also accepted. - &#x60;OFF&#x60;: Disable SafeSearch filtering. Legacy value &#x60;off&#x60; is also accepted. (optional)
+     * @param nfpr Controls Google&#39;s auto-correction.  Available Values: - &#x60;INCLUDE_CORRECTED_RESULTS&#x60;: Include corrected results. Legacy value &#x60;0&#x60; is also accepted. - &#x60;EXCLUDE_CORRECTED_RESULTS&#x60;: Exclude corrected results. Legacy value &#x60;1&#x60; is also accepted. (optional)
      * @param resultTime Filter results by publication time (e.g., &#39;qdr:d&#39; for past 24 hours, &#39;qdr:w&#39; for past week). (optional)
      * @param _callback The callback to be executed when the API call finishes
      * @return The request call
