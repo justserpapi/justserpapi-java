@@ -1,6 +1,6 @@
-# JustSerpAPI Java SDK
+# JustSERPAPI Java SDK
 
-Java SDK for the JustSerpAPI HTTP interface. The SDK is generated from the upstream OpenAPI document and republished through GitHub and Maven Central.
+Java SDK for the JustSERPAPI HTTP interface. The SDK is generated from the upstream OpenAPI document and republished through GitHub and Maven Central.
 
 ## What This Repository Contains
 
@@ -21,7 +21,7 @@ Java SDK for the JustSerpAPI HTTP interface. The SDK is generated from the upstr
 <dependency>
   <groupId>com.justserpapi</groupId>
   <artifactId>justserpapi-java</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 </dependency>
 ```
 

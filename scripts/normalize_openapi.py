@@ -5,14 +5,14 @@ import json
 import pathlib
 
 
-SUCCESS_RESPONSE_DESCRIPTION = "Successful JustSerpAPI response."
+SUCCESS_RESPONSE_DESCRIPTION = "Successful JustSERPAPI response."
 UNEXPECTED_RESPONSE_DESCRIPTION = "Unexpected response."
 
 
 def build_success_schema():
     return {
         "type": "object",
-        "description": "Standard JustSerpAPI response envelope.",
+        "description": "Standard JustSERPAPI response envelope.",
         "required": ["code", "message", "data", "requestId", "timestamp"],
         "properties": {
             "code": {
@@ -48,13 +48,13 @@ def build_security_schemes():
             "type": "apiKey",
             "in": "header",
             "name": "X-API-Key",
-            "description": "Primary authentication header for JustSerpAPI."
+            "description": "Primary authentication header for JustSERPAPI."
         },
         "JustSerpApiKeyQuery": {
             "type": "apiKey",
             "in": "query",
             "name": "api_key",
-            "description": "Compatibility fallback query parameter for JustSerpAPI."
+            "description": "Compatibility fallback query parameter for JustSERPAPI."
         }
     }
 
@@ -91,7 +91,7 @@ def normalize_spec(document):
     normalized["openapi"] = "3.0.3"
     normalized["servers"] = [{
         "url": "https://api.justserpapi.com",
-        "description": "JustSerpAPI production server"
+        "description": "JustSERPAPI production server"
     }]
     normalized["tags"] = [{
         "name": "Google",

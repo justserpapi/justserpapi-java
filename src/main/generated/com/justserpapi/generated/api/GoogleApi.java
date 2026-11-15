@@ -90,7 +90,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -191,7 +191,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -218,7 +218,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -247,7 +247,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -271,7 +271,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -347,7 +347,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -369,7 +369,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -393,7 +393,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -419,7 +419,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -505,7 +505,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -529,7 +529,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -555,7 +555,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -581,7 +581,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -667,7 +667,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -691,7 +691,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -717,7 +717,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -766,7 +766,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -977,7 +977,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1024,7 +1024,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1073,7 +1073,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1119,7 +1119,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1305,7 +1305,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1349,7 +1349,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1395,7 +1395,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1423,7 +1423,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1519,7 +1519,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1545,7 +1545,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1573,7 +1573,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1605,7 +1605,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1721,7 +1721,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1751,7 +1751,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1783,7 +1783,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1812,7 +1812,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1913,7 +1913,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1940,7 +1940,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -1969,7 +1969,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2001,7 +2001,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2117,7 +2117,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2147,7 +2147,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2179,7 +2179,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2206,7 +2206,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2297,7 +2297,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2322,7 +2322,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2349,7 +2349,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2375,7 +2375,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2456,7 +2456,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2480,7 +2480,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2506,7 +2506,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2531,7 +2531,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2612,7 +2612,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2635,7 +2635,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2660,7 +2660,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2689,7 +2689,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2790,7 +2790,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2817,7 +2817,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2846,7 +2846,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2877,7 +2877,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -2988,7 +2988,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3017,7 +3017,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3048,7 +3048,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3078,7 +3078,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3184,7 +3184,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3212,7 +3212,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3242,7 +3242,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3268,7 +3268,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3354,7 +3354,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3378,7 +3378,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3404,7 +3404,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3444,7 +3444,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3600,7 +3600,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3638,7 +3638,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3678,7 +3678,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3707,7 +3707,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3808,7 +3808,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3835,7 +3835,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3864,7 +3864,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3889,7 +3889,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3970,7 +3970,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -3993,7 +3993,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4018,7 +4018,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4044,7 +4044,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4130,7 +4130,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4154,7 +4154,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4180,7 +4180,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4219,7 +4219,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4370,7 +4370,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4407,7 +4407,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4446,7 +4446,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4489,7 +4489,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4660,7 +4660,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4701,7 +4701,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4744,7 +4744,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4787,7 +4787,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4958,7 +4958,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -4999,7 +4999,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5042,7 +5042,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5085,7 +5085,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5256,7 +5256,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5297,7 +5297,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5340,7 +5340,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5375,7 +5375,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5506,7 +5506,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5539,7 +5539,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5574,7 +5574,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5608,7 +5608,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5734,7 +5734,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5766,7 +5766,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5800,7 +5800,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5825,7 +5825,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5906,7 +5906,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5929,7 +5929,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5954,7 +5954,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -5986,7 +5986,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6102,7 +6102,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6132,7 +6132,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6164,7 +6164,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6190,7 +6190,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6276,7 +6276,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6300,7 +6300,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6326,7 +6326,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6361,7 +6361,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6492,7 +6492,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6525,7 +6525,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */
@@ -6560,7 +6560,7 @@ public class GoogleApi {
         <tr><td> 401 </td><td> Authentication failed: API Key is invalid or missing </td><td>  -  </td></tr>
         <tr><td> 403 </td><td> Access denied: Insufficient credits or quota exceeded </td><td>  -  </td></tr>
         <tr><td> 500 </td><td> Internal server error or upstream service exception </td><td>  -  </td></tr>
-        <tr><td> 200 </td><td> Successful JustSerpAPI response. </td><td>  -  </td></tr>
+        <tr><td> 200 </td><td> Successful JustSERPAPI response. </td><td>  -  </td></tr>
         <tr><td> 0 </td><td> Unexpected response. </td><td>  -  </td></tr>
      </table>
      */

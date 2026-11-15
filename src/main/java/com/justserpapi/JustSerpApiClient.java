@@ -10,7 +10,7 @@ import java.time.Duration;
 import java.util.Objects;
 
 /**
- * Stable SDK entry point for configuring and accessing generated JustSerpAPI operations.
+ * Stable SDK entry point for configuring and accessing generated JustSERPAPI operations.
  */
 public final class JustSerpApiClient {
     static final String DEFAULT_BASE_URL = "https://api.justserpapi.com";

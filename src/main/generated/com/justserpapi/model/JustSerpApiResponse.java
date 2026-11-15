@@ -48,7 +48,7 @@ import java.util.Set;
 import com.justserpapi.generated.invoker.JSON;
 
 /**
- * Standard JustSerpAPI response envelope.
+ * Standard JustSERPAPI response envelope.
  */
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.12.0")
 public class JustSerpApiResponse {

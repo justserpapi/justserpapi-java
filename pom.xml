@@ -5,11 +5,11 @@
 
     <groupId>com.justserpapi</groupId>
     <artifactId>justserpapi-java</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <packaging>jar</packaging>
 
-    <name>JustSerpAPI Java SDK</name>
-    <description>Generated Java SDK for the JustSerpAPI HTTP interface.</description>
+    <name>JustSERPAPI Java SDK</name>
+    <description>Generated Java SDK for the JustSERPAPI HTTP interface.</description>
     <url>https://github.com/justserpapi/justserpapi-java</url>
 
     <licenses>
@@ -23,7 +23,7 @@
     <developers>
         <developer>
             <id>justserpapi</id>
-            <name>JustSerpAPI</name>
+            <name>JustSERPAPI</name>
             <url>https://github.com/justserpapi</url>
         </developer>
     </developers>
@@ -48,7 +48,7 @@
         <javadoc.plugin.version>3.11.2</javadoc.plugin.version>
         <gpg.plugin.version>3.2.7</gpg.plugin.version>
         <enforcer.plugin.version>3.5.0</enforcer.plugin.version>
-        <central.plugin.version>0.7.0</central.plugin.version>
+        <central.plugin.version>0.10.0</central.plugin.version>
         <openapi.generator.version>7.12.0</openapi.generator.version>
 
         <openapi.spec.path>${project.basedir}/openapi/normalized/justserpapi-openapi.json</openapi.spec.path>

@@ -8,7 +8,7 @@
   "servers": [
     {
       "url": "https://api.justserpapi.com",
-      "description": "JustSerpAPI production server"
+      "description": "JustSERPAPI production server"
     }
   ],
   "paths": {
@@ -152,7 +152,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -380,7 +380,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -1107,7 +1107,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -1769,7 +1769,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -1963,7 +1963,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -2235,7 +2235,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -3167,7 +3167,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -4193,7 +4193,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -4484,7 +4484,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -4899,7 +4899,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -5316,7 +5316,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -5658,7 +5658,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -5810,7 +5810,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -6446,7 +6446,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -9362,7 +9362,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -10726,7 +10726,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -11979,7 +11979,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -15757,7 +15757,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -16192,7 +16192,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -16328,7 +16328,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -16463,7 +16463,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -16740,7 +16740,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -16872,7 +16872,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -17555,7 +17555,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -18555,7 +18555,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -19490,7 +19490,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -21292,7 +21292,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -25289,7 +25289,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -25929,7 +25929,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -26071,7 +26071,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -26327,7 +26327,7 @@
             "description": "Internal server error or upstream service exception"
           },
           "200": {
-            "description": "Successful JustSerpAPI response.",
+            "description": "Successful JustSERPAPI response.",
             "content": {
               "application/json": {
                 "schema": {
@@ -26577,7 +26577,7 @@
     "schemas": {
       "JustSerpApiResponse": {
         "type": "object",
-        "description": "Standard JustSerpAPI response envelope.",
+        "description": "Standard JustSERPAPI response envelope.",
         "required": [
           "code",
           "message",
@@ -26617,13 +26617,13 @@
         "type": "apiKey",
         "in": "header",
         "name": "X-API-Key",
-        "description": "Primary authentication header for JustSerpAPI."
+        "description": "Primary authentication header for JustSERPAPI."
       },
       "JustSerpApiKeyQuery": {
         "type": "apiKey",
         "in": "query",
         "name": "api_key",
-        "description": "Compatibility fallback query parameter for JustSerpAPI."
+        "description": "Compatibility fallback query parameter for JustSERPAPI."
       }
     }
   },

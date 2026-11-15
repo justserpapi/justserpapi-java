@@ -9,7 +9,7 @@ DEFAULT_URL = "https://api.justserpapi.com/v3/api-docs/gateway?api_key=9KsZprZU"
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Fetch the upstream JustSerpAPI OpenAPI document.")
+    parser = argparse.ArgumentParser(description="Fetch the upstream JustSERPAPI OpenAPI document.")
     parser.add_argument("--url", default=DEFAULT_URL, help="OpenAPI document URL.")
     parser.add_argument("--output", required=True, help="Path to write the raw OpenAPI JSON.")
     args = parser.parse_args()
