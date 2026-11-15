@@ -1,0 +1,48 @@
+name: ci
+
+on:
+  schedule:
+    - cron: "* * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: auto-empty-commit-main
+  cancel-in-progress: false
+
+jobs:
+  autogreen:
+    if: github.repository == 'justserpapi/justserpapi-java'
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Auto commit
+        run: |
+          set -euo pipefail
+
+          git config --local user.name "Anonymous Committer"
+          git config --local user.email "anonymous@users.noreply.github.com"
+
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            git commit --allow-empty -m "chore: auto empty commit at $(date -u)"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push raced with another update to main; retrying in $((attempt * 5)) seconds..."
+            sleep $((attempt * 5))
+          done
+
+          echo "Failed to push auto commit after 5 attempts."
+          exit 1
