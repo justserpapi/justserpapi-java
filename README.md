@@ -25,7 +25,7 @@ Get your API key, product docs, and pricing at [justserpapi.com](https://justser
 <dependency>
   <groupId>com.justserpapi</groupId>
   <artifactId>justserpapi-java</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 </dependency>
 ```
 
