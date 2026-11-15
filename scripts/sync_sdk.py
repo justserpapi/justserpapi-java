@@ -33,7 +33,7 @@ def sync_generated_sources(source_dir: pathlib.Path, destination_dir: pathlib.Pa
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Fetch, normalize, and regenerate the JustSerpAPI Java SDK.")
+    parser = argparse.ArgumentParser(description="Fetch, normalize, and regenerate the JustSERPAPI Java SDK.")
     parser.add_argument("--skip-fetch", action="store_true", help="Reuse the checked-in raw OpenAPI spec.")
     parser.add_argument("--check", action="store_true", help="Verify that the checked-in generated sources are up to date.")
     args = parser.parse_args()

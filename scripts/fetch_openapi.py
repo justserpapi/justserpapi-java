@@ -36,7 +36,7 @@ def build_request(
 
 
 def main(argv: Optional[List[str]] = None) -> int:
-    parser = argparse.ArgumentParser(description="Fetch the upstream JustSerpAPI OpenAPI document.")
+    parser = argparse.ArgumentParser(description="Fetch the upstream JustSERPAPI OpenAPI document.")
     parser.add_argument("--url", help="OpenAPI document URL (overrides default).")
     parser.add_argument("--api-key", help=f"Legacy API key to use for fetching. If not provided, reads from {API_KEY_ENV} env var.")
     parser.add_argument("--username", help=f"HTTP Basic auth username. If not provided, reads from {OPENAPI_USERNAME_ENV} env var.")

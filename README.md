@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://justserpapi.com/logo/whiteBgColor.webp" alt="JustSerpAPI Logo" width="200">
+  <img src="https://justserpapi.com/logo/justserpapi-brand.svg" alt="JustSERPAPI Logo" width="200">
 </p>
 
-<h1 align="center">JustSerpAPI Java SDK</h1>
+<h1 align="center">JustSERPAPI Java SDK</h1>
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.justserpapi/justserpapi-java)](https://central.sonatype.com/artifact/com.justserpapi/justserpapi-java)
 [![Java](https://img.shields.io/badge/java-11%2B-2f81f7)](https://www.oracle.com/java/technologies/downloads/)
 [![Docs](https://img.shields.io/badge/docs-justserpapi.com-32c955)](https://docs.justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme)
 [![License](https://img.shields.io/badge/license-Apache%202.0-f28c28)](LICENSE)
 
-Official Java SDK for [JustSerpAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
+Official Java SDK for [JustSERPAPI](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
 
-Use this SDK to access JustSerpAPI from Java and fetch structured Google search results without building raw HTTP requests by hand.
+Use this SDK to access JustSERPAPI from Java and fetch structured Google search results without building raw HTTP requests by hand.
 
 Get your API key, product docs, and pricing at [justserpapi.com](https://justserpapi.com/?utm_source=github.com&utm_medium=referral&utm_campaign=justserpapi_justserpapi_java&utm_content=repo_readme).
 

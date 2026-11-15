@@ -8,8 +8,8 @@
     <version>0.1.0</version>
     <packaging>jar</packaging>
 
-    <name>JustSerpAPI Java SDK</name>
-    <description>Generated Java SDK for the JustSerpAPI HTTP interface.</description>
+    <name>JustSERPAPI Java SDK</name>
+    <description>Generated Java SDK for the JustSERPAPI HTTP interface.</description>
     <url>https://github.com/justserpapi/justserpapi-java</url>
 
     <licenses>
@@ -23,7 +23,7 @@
     <developers>
         <developer>
             <id>justserpapi</id>
-            <name>JustSerpAPI</name>
+            <name>JustSERPAPI</name>
             <url>https://github.com/justserpapi</url>
         </developer>
     </developers>

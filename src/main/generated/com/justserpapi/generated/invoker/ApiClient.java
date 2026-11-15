@@ -65,7 +65,7 @@ public class ApiClient {
     protected List<ServerConfiguration> servers = new ArrayList<ServerConfiguration>(Arrays.asList(
     new ServerConfiguration(
       "https://api.justserpapi.com",
-      "JustSerpAPI production server",
+      "JustSERPAPI production server",
       new HashMap<String, ServerVariable>()
     )
   ));
